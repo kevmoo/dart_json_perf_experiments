@@ -11,5 +11,5 @@ external List<JSData> parseJson(String input);
 @JS()
 @anonymous
 abstract class JSData implements Data {
-
+  external bool get strong;
 }

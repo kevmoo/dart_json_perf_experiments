@@ -13,9 +13,14 @@ import 'package:djs/interop.dart';
 main() async {
   var request = await HttpRequest.getString('data.json');
   var count = 2000;
-  var dartStats = _getStats(count, request, _dartNative);
 
+  // warming up!!!
+  var dartStats = _getStats(count, request, _dartNative);
   var jsStats = _getStats(count, request, parseJson);
+
+  // doing it for real!!
+  dartStats = _getStats(count, request, _dartNative);
+  jsStats = _getStats(count, request, parseJson);
 
   var stats = ['*** Dart ***', dartStats, '*** JS Stats ***', jsStats];
 
@@ -24,7 +29,7 @@ main() async {
 
 String _getStats(int count, String input, Iterable<Data> decode(String input)) {
   var stats = new Stats(new Iterable<int>.generate(
-      count, (i) => _dartJson(input, _dartNative).inMicroseconds));
+      count, (i) => _dartJson(input, decode).inMicroseconds));
 
   var items = {
     'median': stats.median,
