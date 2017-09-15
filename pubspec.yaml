@@ -27,6 +27,7 @@ transformers:
       - --no-frequency-based-minification
       - --trust-type-annotations
       - --trust-primitives
+      - --fast-startup
 web:
   compiler:
     debug: dartdevc

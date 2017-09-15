@@ -12,13 +12,11 @@ import 'package:djs/interop.dart';
 
 main() async {
   var request = await HttpRequest.getString('data.json');
-  var count = 2000;
+  var count = 100;
 
-  // warming up!!!
   var dartStats = _getStats(count, request, _dartNative);
   var jsStats = _getStats(count, request, parseJson);
 
-  // doing it for real!!
   dartStats = _getStats(count, request, _dartNative);
   jsStats = _getStats(count, request, parseJson);
 
@@ -56,9 +54,17 @@ Iterable<Data> _dartNative(String input) =>
 Duration _dartJson(String input, Iterable<Data> decode(String input)) {
   var stopwatch = new Stopwatch()..start();
 
-  if (decode(input).where((d) => d.strong == true).length != 512) {
-    throw 'boo!';
+  var count = 0;
+
+  if (false) {
+    for (var e in decode(input)) {
+      if (e.strong) count++;
+    }
+  } else {
+    count = decode(input).where((e) => e.strong).length;
   }
+
+  if (count != 512) {}
 
   return stopwatch.elapsed;
 }
