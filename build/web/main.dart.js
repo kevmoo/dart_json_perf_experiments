@@ -1537,17 +1537,6 @@
         return false;
       return H.areSubtypes(H.substitute(interceptor[asField], $arguments), checks);
     },
-    subtypeCast: function(object, isField, checks, asField) {
-      if (object == null)
-        return object;
-      if (H.checkSubtype(object, isField, checks, asField))
-        return object;
-      throw H.wrapException(H.CastErrorImplementation$(H.Primitives_objectTypeName(object), function(str, names) {
-        return str.replace(/[^<,> ]+/g, function(m) {
-          return names[m] || m;
-        });
-      }(isField.substring(3) + H.joinArguments(checks, 0, null), init.mangledGlobalNames)));
-    },
     areSubtypes: function(s, t) {
       var len, i;
       if (s == null || t == null)
@@ -3096,6 +3085,14 @@
         list.push(t1.get$current());
       return list;
     },
+    List_List$generate: function($length, generator, growable, $E) {
+      var result, i;
+      result = H.setRuntimeTypeInfo([], [$E]);
+      C.JSArray_methods.set$length(result, $length);
+      for (i = 0; i < $length; ++i)
+        result[i] = generator.call$1(i);
+      return result;
+    },
     print: function(object) {
       H.printString(H.S(object));
     },
@@ -3184,8 +3181,6 @@
     Iterator: function Iterator() {
     },
     List: function List() {
-    },
-    Map: function Map() {
     },
     Null: function Null() {
     },
@@ -3460,25 +3455,8 @@
       return t1.charCodeAt(0) == 0 ? t1 : t1;
     },
     _dartNative: function(input) {
-      return J.map$1$ax(H.subtypeCast(C.JsonCodec_null_null.decode$1(input), "$isList", [[P.Map, P.String,,]], "$asList"), new F._dartNative_closure());
-    },
-    _dartJson: function(input, decode) {
-      var stopwatch, t1, count;
-      stopwatch = new P.Stopwatch(0, 0);
-      if ($.Stopwatch__frequency == null) {
-        H.Primitives_initTicker();
-        $.Stopwatch__frequency = $.Primitives_timerFrequency;
-      }
-      t1 = $.Primitives_timerTicks.call$0();
-      stopwatch._start = t1 - 0;
-      stopwatch._stop = null;
-      for (t1 = J.get$iterator$ax(decode.call$1(input)), count = 0; t1.moveNext$0();)
-        if (t1.get$current().strong)
-          ++count;
-      t1 = stopwatch._stop;
-      if (t1 == null)
-        t1 = $.Primitives_timerTicks.call$0();
-      return P.Duration$(0, 0, C.JSInt_methods.$tdiv((t1 - stopwatch._start) * 1000000, $.Stopwatch__frequency), 0, 0, 0);
+      var rawData = C.JsonCodec_null_null.decode$1(input);
+      return P.List_List$generate(J.get$length$asx(rawData), new F._dartNative_closure(rawData), true, B.Data);
     },
     _getStats_closure: function _getStats_closure(input, decode) {
       this.input = input;
@@ -3490,7 +3468,8 @@
       this.longest = longest;
       this.output = output;
     },
-    _dartNative_closure: function _dartNative_closure() {
+    _dartNative_closure: function _dartNative_closure(rawData) {
+      this.rawData = rawData;
     }
   };
   var holders = [C, H, J, P, W, B, X, Y, F];
@@ -6701,7 +6680,6 @@
   };
   P.Iterator.prototype = {};
   P.List.prototype = {$isEfficientLengthIterable: 1, $asEfficientLengthIterable: null, $isIterable: 1, $asList: null};
-  P.Map.prototype = {};
   P.Null.prototype = {
     get$hashCode: function(_) {
       return P.Object.prototype.get$hashCode.call(this, this);
@@ -6988,7 +6966,18 @@
   };
   F._getStats_closure.prototype = {
     call$1: function(i) {
-      return F._dartJson(this.input, this.decode)._duration;
+      var t1, t2;
+      if ($.Stopwatch__frequency == null) {
+        H.Primitives_initTicker();
+        $.Stopwatch__frequency = $.Primitives_timerFrequency;
+      }
+      t1 = $.Primitives_timerTicks.call$0();
+      t1 -= 0;
+      if (!J.get$strong$x(J.$index$asx(this.decode.call$1(this.input), 999)))
+        H.throwExpression("weird! - false");
+      t2 = $.Primitives_timerTicks.call$0();
+      t2 = t2;
+      return P.Duration$(0, 0, C.JSInt_methods.$tdiv((t2 - t1) * 1000000, $.Stopwatch__frequency), 0, 0, 0)._duration;
     },
     $signature: function() {
       return {func: 1, args: [,]};
@@ -7012,11 +7001,12 @@
     }
   };
   F._dartNative_closure.prototype = {
-    call$1: function(j) {
-      var t1, t2;
-      t1 = H.stringTypeCast(j.$index(0, "first"));
-      t2 = H.stringTypeCast(j.$index(0, "last"));
-      return new B.Data(H.intTypeCast(j.$index(0, "count")), t1, t2, H.boolTypeCast(j.$index(0, "strong")));
+    call$1: function(i) {
+      var t1, t2, t3;
+      t1 = J.$index$asx(this.rawData, i);
+      t2 = H.stringTypeCast(t1.$index(0, "first"));
+      t3 = H.stringTypeCast(t1.$index(0, "last"));
+      return new B.Data(H.intTypeCast(t1.$index(0, "count")), t2, t3, H.boolTypeCast(t1.$index(0, "strong")));
     },
     $signature: function() {
       return {func: 1, args: [,]};
@@ -7098,7 +7088,6 @@
     inherit(P.FormatException, _);
     inherit(P.Expando, _);
     inherit(P.List, _);
-    inherit(P.Map, _);
     inherit(P.Null, _);
     inherit(P.StackTrace, _);
     inherit(P.Stopwatch, _);

@@ -47,24 +47,20 @@ String _getStats(int count, String input, Iterable<Data> decode(String input)) {
   return output.toString();
 }
 
-Iterable<Data> _dartNative(String input) =>
-    (JSON.decode(input) as List<Map<String, dynamic>>)
-        .map((j) => new Data.fromJson(j));
+Iterable<Data> _dartNative(String input) {
+  List rawData = JSON.decode(input);
+  return new List<Data>.generate(
+      rawData.length, (i) => new Data.fromJson(rawData[i]));
+}
 
-Duration _dartJson(String input, Iterable<Data> decode(String input)) {
+Duration _dartJson(String input, List<Data> decode(String input)) {
   var stopwatch = new Stopwatch()..start();
 
-  var count = 0;
+  var lastStrong = decode(input)[999].strong;
 
-  if (true) {
-    for (var e in decode(input)) {
-      if (e.strong) count++;
-    }
-  } else {
-    count = decode(input).where((e) => e.strong).length;
+  if (!lastStrong) {
+    throw 'weird! - $lastStrong';
   }
-
-  if (count != 512) {}
 
   return stopwatch.elapsed;
 }

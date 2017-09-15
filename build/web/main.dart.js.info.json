@@ -457,7 +457,7 @@
         "id": "library/631335891",
         "kind": "library",
         "name": "dart.core",
-        "size": 15063,
+        "size": 15288,
         "children": [
           "class/36312556",
           "class/70813553",
@@ -491,7 +491,6 @@
           "class/959990109",
           "class/974704527",
           "class/991730135",
-          "class/1052045656",
           "function/359535976",
           "function/399195151",
           "typedef/275581422"
@@ -528,8 +527,7 @@
           "class/1071198161",
           "function/203929913",
           "function/606513838",
-          "typedef/449248541",
-          "typedef/658164069"
+          "typedef/449248541"
         ],
         "canonicalUri": "dart:_internal"
       },
@@ -591,7 +589,7 @@
         "id": "library/966364039",
         "kind": "library",
         "name": "_js_helper",
-        "size": 59509,
+        "size": 59021,
         "children": [
           "class/17649844",
           "class/27679401",
@@ -624,7 +622,6 @@
           "function/108053021",
           "function/109394176",
           "function/122459214",
-          "function/126109279",
           "function/136972596",
           "function/163889622",
           "function/190514013",
@@ -674,7 +671,6 @@
           "function/647097825",
           "function/668300184",
           "function/679532174",
-          "function/691150797",
           "function/710092165",
           "function/712948390",
           "function/714600619",
@@ -686,7 +682,6 @@
           "function/753047160",
           "function/753586447",
           "function/756575134",
-          "function/768480442",
           "function/788412943",
           "function/798288240",
           "function/813370328",
@@ -808,7 +803,6 @@
           "typedef/379498928",
           "typedef/386011823",
           "typedef/420200094",
-          "typedef/420529042",
           "typedef/420750975",
           "typedef/478851938",
           "typedef/478881444",
@@ -832,7 +826,7 @@
         "id": "library/1072826276",
         "kind": "library",
         "name": "<unnamed>",
-        "size": 4131,
+        "size": 3972,
         "children": [
           "function/56256733",
           "function/114226449",
@@ -5887,7 +5881,8 @@
           "abstract": true
         },
         "children": [
-          "function/140617653"
+          "function/140617653",
+          "function/436170439"
         ]
       },
       "960338917": {
@@ -6438,18 +6433,6 @@
           "function/857203839",
           "function/1026705261"
         ]
-      },
-      "1052045656": {
-        "id": "class/1052045656",
-        "kind": "class",
-        "name": "Map",
-        "size": 44,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/631335891",
-        "modifiers": {
-          "abstract": true
-        },
-        "children": []
       },
       "1059387371": {
         "id": "class/1059387371",
@@ -7933,7 +7916,7 @@
         "id": "function/56256733",
         "kind": "function",
         "name": "_getStats",
-        "size": 1520,
+        "size": 1988,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1072826276",
         "children": [
@@ -9106,7 +9089,7 @@
         "id": "function/114226449",
         "kind": "function",
         "name": "_dartNative",
-        "size": 586,
+        "size": 691,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1072826276",
         "children": [
@@ -9119,7 +9102,7 @@
           "external": false
         },
         "returnType": "Iterable<Data>",
-        "inferredReturnType": "[exact=MappedListIterable]",
+        "inferredReturnType": "Container mask: [null|subclass=Object] length: null type: Union of [[exact=JSExtendableArray], [exact=JSFixedArray]]",
         "parameters": [
           {
             "name": "input",
@@ -9129,7 +9112,7 @@
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
         "inlinedCount": 0,
-        "code": "function(input) {\n  return J.map$1$ax(H.subtypeCast(C.JsonCodec_null_null.decode$1(input), \"$isList\", [[P.Map, P.String,,]], \"$asList\"), new F._dartNative_closure());\n}\n",
+        "code": "function(input) {\n  var rawData = C.JsonCodec_null_null.decode$1(input);\n  return P.List_List$generate(J.get$length$asx(rawData), new F._dartNative_closure(rawData), true, B.Data);\n}\n",
         "type": "(String) -> Iterable<Data>",
         "measurements": null
       },
@@ -9378,50 +9361,6 @@
         "inlinedCount": 0,
         "code": "_unlinkCell$1: function(cell) {\n  var previous, next;\n  previous = cell._previous;\n  next = cell._next;\n  if (previous == null)\n    this._first = next;\n  else\n    previous._next = next;\n  if (next == null)\n    this._last = previous;\n  else\n    next._previous = previous;\n  --this._length;\n  this._modifications = this._modifications + 1 & 67108863;\n}\n",
         "type": "(LinkedHashMapCell) -> void",
-        "measurements": null
-      },
-      "126109279": {
-        "id": "function/126109279",
-        "kind": "function",
-        "name": "subtypeCast",
-        "size": 488,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/966364039",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Object",
-        "inferredReturnType": "[null|subclass=Object]",
-        "parameters": [
-          {
-            "name": "object",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          },
-          {
-            "name": "isField",
-            "type": "[null|exact=JSString]",
-            "declaredType": "String"
-          },
-          {
-            "name": "checks",
-            "type": "[null|subtype=List]",
-            "declaredType": "List"
-          },
-          {
-            "name": "asField",
-            "type": "[null|exact=JSString]",
-            "declaredType": "String"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "function(object, isField, checks, asField) {\n  if (object == null)\n    return object;\n  if (H.checkSubtype(object, isField, checks, asField))\n    return object;\n  throw H.wrapException(H.CastErrorImplementation$(H.Primitives_objectTypeName(object), function(str, names) {\n    return str.replace(/[^<,> ]+/g, function(m) {\n      return names[m] || m;\n    });\n  }(isField.substring(3) + H.joinArguments(checks, 0, null), init.mangledGlobalNames)));\n}\n",
-        "type": "(Object, String, List, String) -> Object",
         "measurements": null
       },
       "128684509": {
@@ -12964,7 +12903,7 @@
         "id": "function/285366197",
         "kind": "function",
         "name": "_dartJson",
-        "size": 732,
+        "size": 0,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1072826276",
         "children": [],
@@ -12985,13 +12924,13 @@
           {
             "name": "decode",
             "type": "[subtype=Function]",
-            "declaredType": "(String) -> Iterable<Data>"
+            "declaredType": "(String) -> List<Data>"
           }
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "function(input, decode) {\n  var stopwatch, t1, count;\n  stopwatch = new P.Stopwatch(0, 0);\n  if ($.Stopwatch__frequency == null) {\n    H.Primitives_initTicker();\n    $.Stopwatch__frequency = $.Primitives_timerFrequency;\n  }\n  t1 = $.Primitives_timerTicks.call$0();\n  stopwatch._start = t1 - 0;\n  stopwatch._stop = null;\n  for (t1 = J.get$iterator$ax(decode.call$1(input)), count = 0; t1.moveNext$0();)\n    if (J.get$strong$x(t1.get$current()))\n      ++count;\n  t1 = stopwatch._stop;\n  if (t1 == null)\n    t1 = $.Primitives_timerTicks.call$0();\n  return P.Duration$(0, 0, C.JSInt_methods.$tdiv((t1 - stopwatch._start) * 1000000, $.Stopwatch__frequency), 0, 0, 0);\n}\n",
-        "type": "(String, (String) -> Iterable<Data>) -> Duration",
+        "inlinedCount": 1,
+        "code": null,
+        "type": "(String, (String) -> List<Data>) -> Duration",
         "measurements": null
       },
       "288870017": {
@@ -13933,7 +13872,7 @@
         "id": "function/328255823",
         "kind": "function",
         "name": "call",
-        "size": 88,
+        "size": 556,
         "outputUnit": "outputUnit/669725655",
         "parent": "closure/107302366",
         "children": [],
@@ -13954,7 +13893,7 @@
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
         "inlinedCount": 0,
-        "code": "call$1: function(i) {\n  return F._dartJson(this.input, this.decode)._duration;\n}\n",
+        "code": "call$1: function(i) {\n  var t1, t2;\n  if ($.Stopwatch__frequency == null) {\n    H.Primitives_initTicker();\n    $.Stopwatch__frequency = $.Primitives_timerFrequency;\n  }\n  t1 = $.Primitives_timerTicks.call$0();\n  t1 -= 0;\n  if (!J.get$strong$x(J.$index$asx(this.decode.call$1(this.input), 999)))\n    H.throwExpression(\"weird! - false\");\n  t2 = $.Primitives_timerTicks.call$0();\n  t2 = t2;\n  return P.Duration$(0, 0, C.JSInt_methods.$tdiv((t2 - t1) * 1000000, $.Stopwatch__frequency), 0, 0, 0)._duration;\n}\n",
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
@@ -16642,6 +16581,45 @@
         "type": "() -> dynamic",
         "measurements": null
       },
+      "436170439": {
+        "id": "function/436170439",
+        "kind": "function",
+        "name": "List.generate",
+        "size": 269,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "class/959990109",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": true,
+          "external": false
+        },
+        "returnType": "List<List.E>",
+        "inferredReturnType": "Container mask: [null|subclass=Object] length: null type: Union of [[exact=JSExtendableArray], [exact=JSFixedArray]]",
+        "parameters": [
+          {
+            "name": "length",
+            "type": "[subclass=JSUInt32]",
+            "declaredType": "int"
+          },
+          {
+            "name": "generator",
+            "type": "[subtype=Function]",
+            "declaredType": "(int) -> List.E"
+          },
+          {
+            "name": "growable",
+            "type": "Value mask: [true] type: [exact=JSBool]",
+            "declaredType": "bool"
+          }
+        ],
+        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
+        "inlinedCount": 0,
+        "code": "function($length, generator, growable, $E) {\n  var result, i;\n  result = H.setRuntimeTypeInfo([], [$E]);\n  C.JSArray_methods.set$length(result, $length);\n  for (i = 0; i < $length; ++i)\n    result[i] = generator.call$1(i);\n  return result;\n}\n",
+        "type": "(int, (int) -> List.E, {bool growable}) -> List<List.E>",
+        "measurements": null
+      },
       "436231120": {
         "id": "function/436231120",
         "kind": "function",
@@ -18507,7 +18485,7 @@
           }
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 2,
+        "inlinedCount": 1,
         "code": null,
         "type": "(String) -> String",
         "measurements": null
@@ -21815,7 +21793,7 @@
         "id": "function/659756675",
         "kind": "function",
         "name": "call",
-        "size": 255,
+        "size": 305,
         "outputUnit": "outputUnit/669725655",
         "parent": "closure/496293994",
         "children": [],
@@ -21829,14 +21807,14 @@
         "inferredReturnType": "[exact=Data]",
         "parameters": [
           {
-            "name": "j",
-            "type": "[null|subclass=Object]",
+            "name": "i",
+            "type": "[subclass=JSPositiveInt]",
             "declaredType": "dynamic"
           }
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
         "inlinedCount": 0,
-        "code": "call$1: function(j) {\n  var t1, t2;\n  t1 = H.stringTypeCast(j.$index(0, \"first\"));\n  t2 = H.stringTypeCast(j.$index(0, \"last\"));\n  return new B.Data(H.intTypeCast(j.$index(0, \"count\")), t1, t2, H.boolTypeCast(j.$index(0, \"strong\")));\n}\n",
+        "code": "call$1: function(i) {\n  var t1, t2, t3;\n  t1 = J.$index$asx(this.rawData, i);\n  t2 = H.stringTypeCast(t1.$index(0, \"first\"));\n  t3 = H.stringTypeCast(t1.$index(0, \"last\"));\n  return new B.Data(H.intTypeCast(t1.$index(0, \"count\")), t2, t3, H.boolTypeCast(t1.$index(0, \"strong\")));\n}\n",
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
@@ -22540,35 +22518,6 @@
         "inlinedCount": 0,
         "code": "_grow$0: function() {\n  var t1, newTable, t2, split;\n  t1 = new Array(this._table.length * 2);\n  t1.fixed$length = Array;\n  newTable = H.setRuntimeTypeInfo(t1, this.$ti);\n  t1 = this._table;\n  t2 = this._head;\n  split = t1.length - t2;\n  C.JSArray_methods.setRange$4(newTable, 0, split, t1, t2);\n  C.JSArray_methods.setRange$4(newTable, split, split + this._head, this._table, 0);\n  this._head = 0;\n  this._tail = this._table.length;\n  this._table = newTable;\n}\n",
         "type": "() -> void",
-        "measurements": null
-      },
-      "691150797": {
-        "id": "function/691150797",
-        "kind": "function",
-        "name": "isCheckPropertyToJsConstructorName",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/966364039",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "String",
-        "inferredReturnType": "[exact=JSString]",
-        "parameters": [
-          {
-            "name": "isCheckProperty",
-            "type": "[null|exact=JSString]",
-            "declaredType": "String"
-          }
-        ],
-        "sideEffects": "Depends on static store, Changes nothing.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(String) -> String",
         "measurements": null
       },
       "692185405": {
@@ -24458,40 +24407,6 @@
         "inlinedCount": 0,
         "code": "completeError$2: function(error, stackTrace) {\n  if (error == null)\n    error = new P.NullThrownError();\n  if (this.future._state !== 0)\n    throw H.wrapException(new P.StateError(\"Future already completed\"));\n  $.Zone__current.toString;\n  this._completeError$2(error, stackTrace);\n}\ncompleteError$1: function(error) {\n  return this.completeError$2(error, null);\n}\n",
         "type": "(Object, [StackTrace]) -> void",
-        "measurements": null
-      },
-      "768480442": {
-        "id": "function/768480442",
-        "kind": "function",
-        "name": "computeTypeName",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/966364039",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "String",
-        "inferredReturnType": "[exact=JSString]",
-        "parameters": [
-          {
-            "name": "isField",
-            "type": "[null|exact=JSString]",
-            "declaredType": "String"
-          },
-          {
-            "name": "arguments",
-            "type": "[null|subtype=List]",
-            "declaredType": "List"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(String, List) -> String",
         "measurements": null
       },
       "769070936": {
@@ -27142,7 +27057,7 @@
           }
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 2,
+        "inlinedCount": 1,
         "code": null,
         "type": "(String, List) -> String",
         "measurements": null
@@ -30766,15 +30681,6 @@
         "parent": "library/1052666095",
         "type": "(Zone, ZoneDelegate, Zone, () -> RegisterCallbackHandler.R) -> ZoneCallback<RegisterCallbackHandler.R>"
       },
-      "420529042": {
-        "id": "typedef/420529042",
-        "kind": "typedef",
-        "name": "_Predicate",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "type": "(_Predicate.T) -> bool"
-      },
       "420750975": {
         "id": "typedef/420750975",
         "kind": "typedef",
@@ -30855,15 +30761,6 @@
         "outputUnit": "outputUnit/669725655",
         "parent": "library/85591458",
         "type": "(Entry) -> void"
-      },
-      "658164069": {
-        "id": "typedef/658164069",
-        "kind": "typedef",
-        "name": "_ElementPredicate",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/689380639",
-        "type": "(_ElementPredicate.E) -> bool"
       },
       "663671574": {
         "id": "typedef/663671574",
@@ -31697,7 +31594,7 @@
         "id": "closure/107302366",
         "kind": "closure",
         "name": "_getStats_closure",
-        "size": 306,
+        "size": 774,
         "outputUnit": "outputUnit/669725655",
         "parent": "function/56256733",
         "function": "function/328255823"
@@ -31841,7 +31738,7 @@
         "id": "closure/496293994",
         "kind": "closure",
         "name": "_dartNative_closure",
-        "size": 410,
+        "size": 497,
         "outputUnit": "outputUnit/669725655",
         "parent": "function/114226449",
         "function": "function/659756675"
@@ -33743,20 +33640,24 @@
     ],
     "function/114226449": [
       {
-        "id": "function/126109279",
-        "mask": "null"
+        "id": "function/144469777",
+        "mask": "[null|subtype=List]"
+      },
+      {
+        "id": "function/156463617",
+        "mask": "[null|subtype=List]"
+      },
+      {
+        "id": "function/16299308",
+        "mask": "[null|subtype=List]"
       },
       {
         "id": "function/346305693",
         "mask": "null"
       },
       {
-        "id": "function/566015677",
-        "mask": "[null|subtype=List]"
-      },
-      {
-        "id": "function/583030208",
-        "mask": "[null|subtype=List]"
+        "id": "function/436170439",
+        "mask": "null"
       },
       {
         "id": "function/659756675",
@@ -33765,6 +33666,10 @@
       {
         "id": "function/683736908",
         "mask": "[exact=JsonCodec]"
+      },
+      {
+        "id": "function/818212569",
+        "mask": "[null|subtype=List]"
       }
     ],
     "function/116583875": [
@@ -33812,48 +33717,6 @@
       },
       {
         "id": "function/1015140651",
-        "mask": "null"
-      }
-    ],
-    "function/126109279": [
-      {
-        "id": "function/163889622",
-        "mask": "null"
-      },
-      {
-        "id": "function/508874693",
-        "mask": "null"
-      },
-      {
-        "id": "function/560797298",
-        "mask": "null"
-      },
-      {
-        "id": "function/691150797",
-        "mask": "null"
-      },
-      {
-        "id": "function/751200407",
-        "mask": "null"
-      },
-      {
-        "id": "function/768480442",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/768480442",
-        "mask": "null"
-      },
-      {
-        "id": "function/792983327",
-        "mask": "null"
-      },
-      {
-        "id": "function/873863767",
-        "mask": "null"
-      },
-      {
-        "id": "function/890739228",
         "mask": "null"
       }
     ],
@@ -36459,168 +36322,16 @@
     ],
     "function/285366197": [
       {
-        "id": "field/16313730",
-        "mask": "null"
-      },
-      {
-        "id": "field/226520886",
-        "mask": "null"
-      },
-      {
-        "id": "field/882252358",
-        "mask": "null"
-      },
-      {
-        "id": "function/1027535878",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/1047605700",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/166779456",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/176842663",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/18345574",
-        "mask": "null"
-      },
-      {
-        "id": "function/200279515",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/290250840",
         "mask": "inlined"
-      },
-      {
-        "id": "function/290250840",
-        "mask": "null"
-      },
-      {
-        "id": "function/291238918",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/292915674",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/316836652",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/346305693",
-        "mask": "null"
-      },
-      {
-        "id": "function/379173991",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/384323776",
-        "mask": "null"
-      },
-      {
-        "id": "function/389240410",
-        "mask": "null"
-      },
-      {
-        "id": "function/405266426",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/477472733",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/526699367",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/598400252",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/675550447",
-        "mask": "null"
-      },
-      {
-        "id": "function/67842662",
-        "mask": "null"
-      },
-      {
-        "id": "function/690312332",
-        "mask": "null"
-      },
-      {
-        "id": "function/695629492",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/704460671",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/724580252",
-        "mask": "null"
-      },
-      {
-        "id": "function/732254259",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/738554230",
-        "mask": "[null|subclass=Object]"
-      },
-      {
-        "id": "function/741775692",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/77958169",
-        "mask": "null"
-      },
-      {
-        "id": "function/80270395",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/834909172",
-        "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/845379732",
         "mask": "inlined"
       },
       {
-        "id": "function/845379732",
-        "mask": "null"
-      },
-      {
-        "id": "function/852972506",
-        "mask": "[null|subclass=Object]"
-      },
-      {
         "id": "function/883559193",
         "mask": "inlined"
-      },
-      {
-        "id": "function/883559193",
-        "mask": "null"
-      },
-      {
-        "id": "function/950708086",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/99251871",
-        "mask": "[null|subclass=Object]"
       }
     ],
     "function/288870017": [
@@ -37075,7 +36786,55 @@
     ],
     "function/328255823": [
       {
+        "id": "field/16313730",
+        "mask": "null"
+      },
+      {
+        "id": "field/226520886",
+        "mask": "null"
+      },
+      {
+        "id": "field/882252358",
+        "mask": "null"
+      },
+      {
+        "id": "function/1008087245",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/18345574",
+        "mask": "null"
+      },
+      {
+        "id": "function/203928505",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/212098596",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/262809646",
+        "mask": "[null|subclass=Object]"
+      },
+      {
         "id": "function/285366197",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/285366197",
+        "mask": "null"
+      },
+      {
+        "id": "function/290250840",
+        "mask": "null"
+      },
+      {
+        "id": "function/308590446",
+        "mask": "null"
+      },
+      {
+        "id": "function/346305693",
         "mask": "null"
       },
       {
@@ -37085,6 +36844,86 @@
       {
         "id": "function/364589491",
         "mask": "null"
+      },
+      {
+        "id": "function/384323776",
+        "mask": "null"
+      },
+      {
+        "id": "function/389240410",
+        "mask": "null"
+      },
+      {
+        "id": "function/411201683",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/459912602",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/543418398",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/63296748",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/665416673",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/668848422",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/675550447",
+        "mask": "null"
+      },
+      {
+        "id": "function/67842662",
+        "mask": "null"
+      },
+      {
+        "id": "function/690312332",
+        "mask": "null"
+      },
+      {
+        "id": "function/724580252",
+        "mask": "null"
+      },
+      {
+        "id": "function/732254259",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/774880085",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/776802090",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/77958169",
+        "mask": "null"
+      },
+      {
+        "id": "function/845379732",
+        "mask": "null"
+      },
+      {
+        "id": "function/858703970",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/883559193",
+        "mask": "null"
+      },
+      {
+        "id": "function/895773113",
+        "mask": "[null|subclass=Object]"
       }
     ],
     "function/328255824": [
@@ -39005,6 +38844,16 @@
       {
         "id": "function/996768174",
         "mask": "[null|subclass=Object]"
+      }
+    ],
+    "function/436170439": [
+      {
+        "id": "function/144469778",
+        "mask": "Container mask: [null|subclass=Object] length: null type: [exact=JSExtendableArray]"
+      },
+      {
+        "id": "function/478451597",
+        "mask": "null"
       }
     ],
     "function/436977056": [
@@ -41185,6 +41034,18 @@
         "mask": "null"
       },
       {
+        "id": "function/203928505",
+        "mask": "[subtype=List]"
+      },
+      {
+        "id": "function/212098596",
+        "mask": "[subtype=List]"
+      },
+      {
+        "id": "function/262809646",
+        "mask": "[subtype=List]"
+      },
+      {
         "id": "function/302153292",
         "mask": "inlined"
       },
@@ -41193,8 +41054,24 @@
         "mask": "null"
       },
       {
+        "id": "function/346305693",
+        "mask": "null"
+      },
+      {
+        "id": "function/411201683",
+        "mask": "[subtype=List]"
+      },
+      {
+        "id": "function/543418398",
+        "mask": "[subtype=List]"
+      },
+      {
         "id": "function/56890470",
         "mask": "null"
+      },
+      {
+        "id": "function/63296748",
+        "mask": "[subtype=List]"
       },
       {
         "id": "function/665416673",
@@ -41217,8 +41094,20 @@
         "mask": "null"
       },
       {
+        "id": "function/774880085",
+        "mask": "[subtype=List]"
+      },
+      {
         "id": "function/799045357",
         "mask": "null"
+      },
+      {
+        "id": "function/858703970",
+        "mask": "[subtype=List]"
+      },
+      {
+        "id": "function/895773113",
+        "mask": "[subtype=List]"
       },
       {
         "id": "function/916958002",
@@ -42339,16 +42228,6 @@
       {
         "id": "function/968358412",
         "mask": "null"
-      }
-    ],
-    "function/768480442": [
-      {
-        "id": "function/691150797",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/890739228",
-        "mask": "inlined"
       }
     ],
     "function/769070936": [
@@ -44786,7 +44665,7 @@
       "id": "outputUnit/669725655",
       "kind": "outputUnit",
       "name": "main",
-      "size": 289127,
+      "size": 288659,
       "imports": []
     }
   ],
@@ -44795,10 +44674,10 @@
   "dump_minor_version": "0",
   "program": {
     "entrypoint": "function/943223716",
-    "size": 289127,
+    "size": 288659,
     "dart2jsVersion": null,
-    "compilationMoment": "2017-09-14 17:05:13.227676",
-    "compilationDuration": 6109193,
+    "compilationMoment": "2017-09-14 17:16:05.609126",
+    "compilationDuration": 6273435,
     "toJsonDuration": 18000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
