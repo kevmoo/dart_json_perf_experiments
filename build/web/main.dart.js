@@ -3473,7 +3473,7 @@
       stopwatch._start = t1 - 0;
       stopwatch._stop = null;
       for (t1 = J.get$iterator$ax(decode.call$1(input)), count = 0; t1.moveNext$0();)
-        if (J.get$strong$x(t1.get$current()))
+        if (t1.get$current().strong)
           ++count;
       t1 = stopwatch._stop;
       if (t1 == null)
