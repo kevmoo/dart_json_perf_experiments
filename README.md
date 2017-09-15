@@ -1,9 +1,12 @@
-https://github.com/matanlurey/dart_serialize_proposal/issues/8
+Discussions
 
-https://github.com/dart-lang/sdk/issues/30242
+* https://github.com/matanlurey/dart_serialize_proposal/issues/8
+* https://github.com/dart-lang/sdk/issues/30242
 
-Median: Dart is 2.455x slower
-  Mean: Dart is 2.329x slower
+Data
+
+* Median: Dart is 2.455x slower
+* Mean: Dart is 2.329x slower
 
 ```
 *** Dart ***
