@@ -6973,7 +6973,7 @@
       }
       t1 = $.Primitives_timerTicks.call$0();
       t1 -= 0;
-      if (!J.get$strong$x(J.$index$asx(this.decode.call$1(this.input), 999)))
+      if (!(J.$index$asx(this.decode.call$1(this.input), 999)).strong)
         H.throwExpression("weird! - false");
       t2 = $.Primitives_timerTicks.call$0();
       t2 = t2;
