@@ -448,16 +448,6 @@
       this._f = _f;
       this.$ti = $ti;
     },
-    WhereIterable: function WhereIterable(_iterable, _f, $ti) {
-      this._iterable = _iterable;
-      this._f = _f;
-      this.$ti = $ti;
-    },
-    WhereIterator: function WhereIterator(_iterator, _f, $ti) {
-      this._iterator = _iterator;
-      this._f = _f;
-      this.$ti = $ti;
-    },
     EmptyIterable: function EmptyIterable($ti) {
       this.$ti = $ti;
     },
@@ -1568,9 +1558,6 @@
           return false;
       return true;
     },
-    computeSignature: function(signature, context, contextName) {
-      return signature.apply(context, H.getRuntimeTypeArguments(context, contextName));
-    },
     isSubtype: function(s, t) {
       var t1, typeOfS, t2, typeOfT, typeOfTString, substitution;
       if (s === t)
@@ -2211,9 +2198,6 @@
     _addEventListener$3$x: function(receiver, a0, a1, a2) {
       return J.getInterceptor$x(receiver)._addEventListener$3(receiver, a0, a1, a2);
     },
-    _removeEventListener$3$x: function(receiver, a0, a1, a2) {
-      return J.getInterceptor$x(receiver)._removeEventListener$3(receiver, a0, a1, a2);
-    },
     compareTo$1$ns: function(receiver, a0) {
       return J.getInterceptor$ns(receiver).compareTo$1(receiver, a0);
     },
@@ -2231,9 +2215,6 @@
     },
     toInt$0$n: function(receiver) {
       return J.getInterceptor$n(receiver).toInt$0(receiver);
-    },
-    where$1$ax: function(receiver, a0) {
-      return J.getInterceptor$ax(receiver).where$1(receiver, a0);
     },
     get$hashCode$: function(receiver) {
       return J.getInterceptor(receiver).get$hashCode(receiver);
@@ -2366,12 +2347,6 @@
     },
     Completer_Completer$sync: function($T) {
       return new P._SyncCompleter(new P._Future(0, $.Zone__current, null, [$T]), [$T]);
-    },
-    _Future$value: function(value, $T) {
-      var t1 = new P._Future(0, $.Zone__current, null, [$T]);
-      t1._state = 4;
-      t1._resultOrListeners = value;
-      return t1;
     },
     _Future__chainForeignFuture: function(source, target) {
       var e, s, exception;
@@ -2570,19 +2545,6 @@
     StreamIterator_StreamIterator: function(stream, $T) {
       return new P._StreamIterator(null, stream, false, [$T]);
     },
-    _ForwardingStreamSubscription$: function(_stream, onData, onError, onDone, cancelOnError, $S, $T) {
-      var t1, t2;
-      t1 = $.Zone__current;
-      t2 = cancelOnError ? 1 : 0;
-      t2 = new P._ForwardingStreamSubscription(_stream, null, null, null, null, t1, t2, null, null, [$S, $T]);
-      t2._BufferingStreamSubscription$4(onData, onError, onDone, cancelOnError, $T);
-      t2._ForwardingStreamSubscription$5(_stream, onData, onError, onDone, cancelOnError, $S, $T);
-      return t2;
-    },
-    _addErrorWithReplacement: function(sink, error, stackTrace) {
-      $.Zone__current.toString;
-      sink._addError$2(error, stackTrace);
-    },
     Timer_Timer: function(duration, callback) {
       var t1 = $.Zone__current;
       if (t1 === C.C__RootZone) {
@@ -2763,69 +2725,12 @@
     },
     StreamSubscription: function StreamSubscription() {
     },
-    _BufferingStreamSubscription: function _BufferingStreamSubscription() {
-    },
-    _BufferingStreamSubscription__sendError_sendError: function _BufferingStreamSubscription__sendError_sendError($this, error, stackTrace) {
-      this.$this = $this;
-      this.error = error;
-      this.stackTrace = stackTrace;
-    },
-    _BufferingStreamSubscription__sendDone_sendDone: function _BufferingStreamSubscription__sendDone_sendDone($this) {
-      this.$this = $this;
-    },
-    _DelayedEvent: function _DelayedEvent() {
-    },
-    _DelayedData: function _DelayedData(value, next, $ti) {
-      this.value = value;
-      this.next = next;
-      this.$ti = $ti;
-    },
-    _DelayedError: function _DelayedError(error, stackTrace, next) {
-      this.error = error;
-      this.stackTrace = stackTrace;
-      this.next = next;
-    },
-    _DelayedDone: function _DelayedDone() {
-    },
-    _PendingEvents: function _PendingEvents() {
-    },
-    _PendingEvents_schedule_closure: function _PendingEvents_schedule_closure($this, dispatch) {
-      this.$this = $this;
-      this.dispatch = dispatch;
-    },
-    _StreamImplEvents: function _StreamImplEvents(firstPendingEvent, lastPendingEvent, _state, $ti) {
-      var $_ = this;
-      $_.firstPendingEvent = firstPendingEvent;
-      $_.lastPendingEvent = lastPendingEvent;
-      $_._state = _state;
-      $_.$ti = $ti;
-    },
     _StreamIterator: function _StreamIterator(_subscription, _stateData, _isPaused, $ti) {
       var $_ = this;
       $_._subscription = _subscription;
       $_._stateData = _stateData;
       $_._isPaused = _isPaused;
       $_.$ti = $ti;
-    },
-    _ForwardingStream: function _ForwardingStream() {
-    },
-    _ForwardingStreamSubscription: function _ForwardingStreamSubscription(_stream, _subscription, _async$_onData, _onError, _onDone, _zone, _state, _cancelFuture, _pending, $ti) {
-      var $_ = this;
-      $_._stream = _stream;
-      $_._subscription = _subscription;
-      $_._async$_onData = _async$_onData;
-      $_._onError = _onError;
-      $_._onDone = _onDone;
-      $_._zone = _zone;
-      $_._state = _state;
-      $_._cancelFuture = _cancelFuture;
-      $_._pending = _pending;
-      $_.$ti = $ti;
-    },
-    _WhereStream: function _WhereStream(_test, _async$_source, $ti) {
-      this._test = _test;
-      this._async$_source = _async$_source;
-      this.$ti = $ti;
     },
     AsyncError: function AsyncError(error, stackTrace) {
       this.error = error;
@@ -3558,7 +3463,7 @@
       return J.map$1$ax(H.subtypeCast(C.JsonCodec_null_null.decode$1(input), "$isList", [[P.Map, P.String,,]], "$asList"), new F._dartNative_closure());
     },
     _dartJson: function(input, decode) {
-      var stopwatch, t1;
+      var stopwatch, t1, count;
       stopwatch = new P.Stopwatch(0, 0);
       if ($.Stopwatch__frequency == null) {
         H.Primitives_initTicker();
@@ -3567,8 +3472,9 @@
       t1 = $.Primitives_timerTicks.call$0();
       stopwatch._start = t1 - 0;
       stopwatch._stop = null;
-      t1 = J.where$1$ax(decode.call$1(input), new F._dartJson_closure());
-      t1.get$length(t1);
+      for (t1 = J.get$iterator$ax(decode.call$1(input)), count = 0; t1.moveNext$0();)
+        if (J.get$strong$x(t1.get$current()))
+          ++count;
       t1 = stopwatch._stop;
       if (t1 == null)
         t1 = $.Primitives_timerTicks.call$0();
@@ -3585,8 +3491,6 @@
       this.output = output;
     },
     _dartNative_closure: function _dartNative_closure() {
-    },
-    _dartJson_closure: function _dartJson_closure() {
     }
   };
   var holders = [C, H, J, P, W, B, X, Y, F];
@@ -3658,9 +3562,6 @@
     checkGrowable$1: function(receiver, reason) {
       if (!!receiver.fixed$length)
         throw H.wrapException(new P.UnsupportedError(reason));
-    },
-    where$1: function(receiver, f) {
-      return new H.WhereIterable(receiver, f, [H.getTypeArgumentByIndex(receiver, 0)]);
     },
     map$1: function(receiver, f) {
       return new H.MappedListIterable(receiver, f, [H.getTypeArgumentByIndex(receiver, 0), null]);
@@ -3998,9 +3899,6 @@
     get$iterator: function(_) {
       return new H.ListIterator(this, this.get$length(this), 0, null);
     },
-    where$1: function(_, test) {
-      return this.super$Iterable$where(0, test);
-    },
     toList$1$growable: function(_, growable) {
       var result, i;
       result = H.setRuntimeTypeInfo([], [H.getRuntimeTypeArgument(this, "ListIterable", 0)]);
@@ -4081,32 +3979,12 @@
       return [$T];
     }
   };
-  H.WhereIterable.prototype = {
-    get$iterator: function(_) {
-      return new H.WhereIterator(J.get$iterator$ax(this._iterable), this._f, this.$ti);
-    }
-  };
-  H.WhereIterator.prototype = {
-    moveNext$0: function() {
-      var t1, t2;
-      for (t1 = this._iterator, t2 = this._f; t1.moveNext$0();)
-        if (t2.call$1(t1.get$current()))
-          return true;
-      return false;
-    },
-    get$current: function() {
-      return this._iterator.get$current();
-    }
-  };
   H.EmptyIterable.prototype = {
     get$iterator: function(_) {
       return C.C_EmptyIterator;
     },
     get$length: function(_) {
       return 0;
-    },
-    where$1: function(_, test) {
-      return this;
     },
     toList$1$growable: function(_, growable) {
       var t1 = H.setRuntimeTypeInfo([], this.$ti);
@@ -5687,15 +5565,6 @@
       this._addListener$1(new P._FutureListener(null, result, onError == null ? 1 : 3, f, onError));
       return result;
     },
-    whenComplete$1: function(action) {
-      var t1, result;
-      t1 = $.Zone__current;
-      result = new P._Future(0, t1, null, this.$ti);
-      if (t1 !== C.C__RootZone)
-        t1.toString;
-      this._addListener$1(new P._FutureListener(null, result, 8, action, null));
-      return result;
-    },
     _addListener$1: function(listener) {
       var t1, t2;
       t1 = this._state;
@@ -6002,9 +5871,6 @@
   };
   P._AsyncCallbackEntry.prototype = {};
   P.Stream.prototype = {
-    where$1: function(_, test) {
-      return new P._WhereStream(test, this, [H.getRuntimeTypeArgument(this, "Stream", 0)]);
-    },
     get$length: function(_) {
       var t1, future;
       t1 = {};
@@ -6031,409 +5897,7 @@
     }
   };
   P.StreamSubscription.prototype = {};
-  P._BufferingStreamSubscription.prototype = {
-    pause$1: function(_, resumeSignal) {
-      var t1, t2, t3;
-      t1 = this._state;
-      if ((t1 & 8) !== 0)
-        return;
-      t2 = (t1 + 128 | 4) >>> 0;
-      this._state = t2;
-      if (t1 < 128 && this._pending != null) {
-        t3 = this._pending;
-        if (t3._state === 1)
-          t3._state = 3;
-      }
-      if ((t1 & 4) === 0 && (t2 & 32) === 0)
-        this._guardCallback$1(this.get$_onPause());
-    },
-    pause$0: function($receiver) {
-      return this.pause$1($receiver, null);
-    },
-    resume$0: function() {
-      var t1 = this._state;
-      if ((t1 & 8) !== 0)
-        return;
-      if (t1 >= 128) {
-        t1 -= 128;
-        this._state = t1;
-        if (t1 < 128)
-          if ((t1 & 64) !== 0 && this._pending.lastPendingEvent != null)
-            this._pending.schedule$1(this);
-          else {
-            t1 = (t1 & 4294967291) >>> 0;
-            this._state = t1;
-            if ((t1 & 32) === 0)
-              this._guardCallback$1(this.get$_onResume());
-          }
-      }
-    },
-    cancel$0: function() {
-      var t1 = (this._state & 4294967279) >>> 0;
-      this._state = t1;
-      if ((t1 & 8) === 0)
-        this._cancel$0();
-      t1 = this._cancelFuture;
-      return t1 == null ? $.$get$Future__nullFuture() : t1;
-    },
-    _cancel$0: function() {
-      var t1, t2;
-      t1 = (this._state | 8) >>> 0;
-      this._state = t1;
-      if ((t1 & 64) !== 0) {
-        t2 = this._pending;
-        if (t2._state === 1)
-          t2._state = 3;
-      }
-      if ((t1 & 32) === 0)
-        this._pending = null;
-      this._cancelFuture = this._onCancel$0();
-    },
-    _async$_add$1: function(data) {
-      var t1 = this._state;
-      if ((t1 & 8) !== 0)
-        return;
-      if (t1 < 32)
-        this._sendData$1(data);
-      else
-        this._addPending$1(new P._DelayedData(data, null, [H.getRuntimeTypeArgument(this, "_BufferingStreamSubscription", 0)]));
-    },
-    _addError$2: function(error, stackTrace) {
-      var t1 = this._state;
-      if ((t1 & 8) !== 0)
-        return;
-      if (t1 < 32)
-        this._sendError$2(error, stackTrace);
-      else
-        this._addPending$1(new P._DelayedError(error, stackTrace, null));
-    },
-    _async$_close$0: function() {
-      var t1 = this._state;
-      if ((t1 & 8) !== 0)
-        return;
-      t1 = (t1 | 2) >>> 0;
-      this._state = t1;
-      if (t1 < 32)
-        this._sendDone$0();
-      else
-        this._addPending$1(C.C__DelayedDone);
-    },
-    _onPause$0: function() {
-    },
-    _onResume$0: function() {
-    },
-    _onCancel$0: function() {
-      return;
-    },
-    _addPending$1: function($event) {
-      var pending, t1;
-      pending = this._pending;
-      if (pending == null) {
-        pending = new P._StreamImplEvents(null, null, 0, [H.getRuntimeTypeArgument(this, "_BufferingStreamSubscription", 0)]);
-        this._pending = pending;
-      }
-      pending.add$1(0, $event);
-      t1 = this._state;
-      if ((t1 & 64) === 0) {
-        t1 = (t1 | 64) >>> 0;
-        this._state = t1;
-        if (t1 < 128)
-          this._pending.schedule$1(this);
-      }
-    },
-    _sendData$1: function(data) {
-      var t1 = this._state;
-      this._state = (t1 | 32) >>> 0;
-      this._zone.runUnaryGuarded$2(this._async$_onData, data);
-      this._state = (this._state & 4294967263) >>> 0;
-      this._checkState$1((t1 & 4) !== 0);
-    },
-    _sendError$2: function(error, stackTrace) {
-      var t1, t2;
-      t1 = this._state;
-      t2 = new P._BufferingStreamSubscription__sendError_sendError(this, error, stackTrace);
-      if ((t1 & 1) !== 0) {
-        this._state = (t1 | 16) >>> 0;
-        this._cancel$0();
-        t1 = this._cancelFuture;
-        if (!!J.getInterceptor(t1).$isFuture && t1 !== $.$get$Future__nullFuture())
-          t1.whenComplete$1(t2);
-        else
-          t2.call$0();
-      } else {
-        t2.call$0();
-        this._checkState$1((t1 & 4) !== 0);
-      }
-    },
-    _sendDone$0: function() {
-      var t1, t2;
-      t1 = new P._BufferingStreamSubscription__sendDone_sendDone(this);
-      this._cancel$0();
-      this._state = (this._state | 16) >>> 0;
-      t2 = this._cancelFuture;
-      if (!!J.getInterceptor(t2).$isFuture && t2 !== $.$get$Future__nullFuture())
-        t2.whenComplete$1(t1);
-      else
-        t1.call$0();
-    },
-    _guardCallback$1: function(callback) {
-      var t1 = this._state;
-      this._state = (t1 | 32) >>> 0;
-      callback.call$0();
-      this._state = (this._state & 4294967263) >>> 0;
-      this._checkState$1((t1 & 4) !== 0);
-    },
-    _checkState$1: function(wasInputPaused) {
-      var t1, t2, isInputPaused;
-      t1 = this._state;
-      if ((t1 & 64) !== 0 && this._pending.lastPendingEvent == null) {
-        t1 = (t1 & 4294967231) >>> 0;
-        this._state = t1;
-        if ((t1 & 4) !== 0)
-          if (t1 < 128) {
-            t2 = this._pending;
-            t2 = t2 == null || t2.lastPendingEvent == null;
-          } else
-            t2 = false;
-        else
-          t2 = false;
-        if (t2) {
-          t1 = (t1 & 4294967291) >>> 0;
-          this._state = t1;
-        }
-      }
-      for (; true; wasInputPaused = isInputPaused) {
-        if ((t1 & 8) !== 0) {
-          this._pending = null;
-          return;
-        }
-        isInputPaused = (t1 & 4) !== 0;
-        if (wasInputPaused === isInputPaused)
-          break;
-        this._state = (t1 ^ 32) >>> 0;
-        if (isInputPaused)
-          this._onPause$0();
-        else
-          this._onResume$0();
-        t1 = (this._state & 4294967263) >>> 0;
-        this._state = t1;
-      }
-      if ((t1 & 64) !== 0 && t1 < 128)
-        this._pending.schedule$1(this);
-    },
-    _BufferingStreamSubscription$4: function(onData, onError, onDone, cancelOnError, $T) {
-      var t1 = this._zone;
-      t1.toString;
-      this._async$_onData = onData;
-      this._onError = P._registerErrorHandler(onError, t1);
-      this._onDone = onDone;
-    },
-    get$_state: function() {
-      return this._state;
-    }
-  };
-  P._BufferingStreamSubscription__sendError_sendError.prototype = {
-    call$0: function() {
-      var t1, t2, t3, t4, t5, t6;
-      t1 = this.$this;
-      t2 = t1._state;
-      if ((t2 & 8) !== 0 && (t2 & 16) === 0)
-        return;
-      t1._state = (t2 | 32) >>> 0;
-      t2 = t1._onError;
-      t3 = H.functionTypeTest(t2, {func: 1, args: [P.Object, P.StackTrace]});
-      t4 = t1._zone;
-      t5 = this.error;
-      t6 = t1._onError;
-      if (t3)
-        t4.runBinaryGuarded$3(t6, t5, this.stackTrace);
-      else
-        t4.runUnaryGuarded$2(t6, t5);
-      t1._state = (t1._state & 4294967263) >>> 0;
-    },
-    $signature: function() {
-      return {func: 1, v: true};
-    }
-  };
-  P._BufferingStreamSubscription__sendDone_sendDone.prototype = {
-    call$0: function() {
-      var t1, t2;
-      t1 = this.$this;
-      t2 = t1._state;
-      if ((t2 & 16) === 0)
-        return;
-      t1._state = (t2 | 42) >>> 0;
-      t1._zone.runGuarded$1(t1._onDone);
-      t1._state = (t1._state & 4294967263) >>> 0;
-    },
-    $signature: function() {
-      return {func: 1, v: true};
-    }
-  };
-  P._DelayedEvent.prototype = {
-    get$next: function() {
-      return this.next;
-    },
-    set$next: function(val) {
-      return this.next = val;
-    }
-  };
-  P._DelayedData.prototype = {
-    perform$1: function(dispatch) {
-      dispatch._sendData$1(this.value);
-    }
-  };
-  P._DelayedError.prototype = {
-    perform$1: function(dispatch) {
-      dispatch._sendError$2(this.error, this.stackTrace);
-    }
-  };
-  P._DelayedDone.prototype = {
-    perform$1: function(dispatch) {
-      dispatch._sendDone$0();
-    },
-    get$next: function() {
-      return;
-    },
-    set$next: function(_) {
-      throw H.wrapException(new P.StateError("No events after a done."));
-    }
-  };
-  P._PendingEvents.prototype = {
-    schedule$1: function(dispatch) {
-      var t1 = this._state;
-      if (t1 === 1)
-        return;
-      if (t1 >= 1) {
-        this._state = 1;
-        return;
-      }
-      P.scheduleMicrotask(new P._PendingEvents_schedule_closure(this, dispatch));
-      this._state = 1;
-    },
-    get$_state: function() {
-      return this._state;
-    }
-  };
-  P._PendingEvents_schedule_closure.prototype = {
-    call$0: function() {
-      var t1, oldState, $event, t2;
-      t1 = this.$this;
-      oldState = t1._state;
-      t1._state = 0;
-      if (oldState === 3)
-        return;
-      $event = t1.firstPendingEvent;
-      t2 = $event.get$next();
-      t1.firstPendingEvent = t2;
-      if (t2 == null)
-        t1.lastPendingEvent = null;
-      $event.perform$1(this.dispatch);
-    },
-    $signature: function() {
-      return {func: 1};
-    }
-  };
-  P._StreamImplEvents.prototype = {
-    add$1: function(_, $event) {
-      var t1 = this.lastPendingEvent;
-      if (t1 == null) {
-        this.lastPendingEvent = $event;
-        this.firstPendingEvent = $event;
-      } else {
-        t1.set$next($event);
-        this.lastPendingEvent = $event;
-      }
-    }
-  };
   P._StreamIterator.prototype = {};
-  P._ForwardingStream.prototype = {
-    listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {
-      return this._createSubscription$4(onData, onError, onDone, true === cancelOnError);
-    },
-    listen$3$onDone$onError: function(onData, onDone, onError) {
-      return this.listen$4$cancelOnError$onDone$onError(onData, null, onDone, onError);
-    },
-    _createSubscription$4: function(onData, onError, onDone, cancelOnError) {
-      return P._ForwardingStreamSubscription$(this, onData, onError, onDone, cancelOnError, H.getRuntimeTypeArgument(this, "_ForwardingStream", 0), H.getRuntimeTypeArgument(this, "_ForwardingStream", 1));
-    },
-    _handleData$2: function(data, sink) {
-      sink._async$_add$1(data);
-    },
-    _handleError$3: function(error, stackTrace, sink) {
-      sink._addError$2(error, stackTrace);
-    },
-    $asStream: function($S, $T) {
-      return [$T];
-    }
-  };
-  P._ForwardingStreamSubscription.prototype = {
-    _async$_add$1: function(data) {
-      if ((this._state & 2) !== 0)
-        return;
-      this.super$_BufferingStreamSubscription$_add(data);
-    },
-    _addError$2: function(error, stackTrace) {
-      if ((this._state & 2) !== 0)
-        return;
-      this.super$_BufferingStreamSubscription$_addError(error, stackTrace);
-    },
-    _onPause$0: function() {
-      var t1 = this._subscription;
-      if (t1 == null)
-        return;
-      t1.pause$0(0);
-    },
-    _onResume$0: function() {
-      var t1 = this._subscription;
-      if (t1 == null)
-        return;
-      t1.resume$0();
-    },
-    _onCancel$0: function() {
-      var t1 = this._subscription;
-      if (t1 != null) {
-        this._subscription = null;
-        return t1.cancel$0();
-      }
-      return;
-    },
-    _handleData$1: function(data) {
-      this._stream._handleData$2(data, this);
-    },
-    _handleError$2: function(error, stackTrace) {
-      this._stream._handleError$3(error, stackTrace, this);
-    },
-    _handleDone$0: function() {
-      this._async$_close$0();
-    },
-    _ForwardingStreamSubscription$5: function(_stream, onData, onError, onDone, cancelOnError, $S, $T) {
-      this._subscription = this._stream._async$_source.listen$3$onDone$onError(this.get$_handleData(), this.get$_handleDone(), this.get$_handleError());
-    },
-    $as_BufferingStreamSubscription: function($S, $T) {
-      return [$T];
-    }
-  };
-  P._WhereStream.prototype = {
-    _handleData$2: function(inputEvent, sink) {
-      var satisfies, e, s, exception;
-      satisfies = null;
-      try {
-        satisfies = this._test.call$1(inputEvent);
-      } catch (exception) {
-        e = H.unwrapException(exception);
-        s = H.getTraceFromException(exception);
-        P._addErrorWithReplacement(sink, e, s);
-        return;
-      }
-      if (satisfies)
-        sink._async$_add$1(inputEvent);
-    },
-    $asStream: null,
-    $as_ForwardingStream: function($T) {
-      return [$T, $T];
-    }
-  };
   P.AsyncError.prototype = {
     toString$0: function(_) {
       return H.S(this.error);
@@ -6487,21 +5951,6 @@
           return t1;
         }
         t1 = P._rootRunUnary(null, null, this, f, arg);
-        return t1;
-      } catch (exception) {
-        e = H.unwrapException(exception);
-        s = H.getTraceFromException(exception);
-        return P._rootHandleUncaughtError(null, null, this, e, s);
-      }
-    },
-    runBinaryGuarded$3: function(f, arg1, arg2) {
-      var e, s, t1, exception;
-      try {
-        if (C.C__RootZone === $.Zone__current) {
-          t1 = f.call$2(arg1, arg2);
-          return t1;
-        }
-        t1 = P._rootRunBinary(null, null, this, f, arg1, arg2);
         return t1;
       } catch (exception) {
         e = H.unwrapException(exception);
@@ -6780,9 +6229,6 @@
     elementAt$1: function(receiver, index) {
       return this.$index(receiver, index);
     },
-    where$1: function(receiver, test) {
-      return new H.WhereIterable(receiver, test, [H.getRuntimeTypeArgument(receiver, "ListMixin", 0)]);
-    },
     map$1: function(receiver, f) {
       return new H.MappedListIterable(receiver, f, [H.getRuntimeTypeArgument(receiver, "ListMixin", 0), null]);
     },
@@ -6908,9 +6354,6 @@
   P.SetMixin.prototype = {
     toString$0: function(_) {
       return P.IterableBase_iterableToFullString(this, "{", "}");
-    },
-    where$1: function(_, f) {
-      return new H.WhereIterable(this, f, this.$ti);
     },
     $isEfficientLengthIterable: 1,
     $asEfficientLengthIterable: null
@@ -7218,9 +6661,6 @@
     }
   };
   P.Iterable.prototype = {
-    where$1: function(_, test) {
-      return new H.WhereIterable(this, test, [H.getRuntimeTypeArgument(this, "Iterable", 0)]);
-    },
     fold$2: function(_, initialValue, combine) {
       var t1, value;
       for (t1 = this.get$iterator(this), value = initialValue; t1.moveNext$0();)
@@ -7342,9 +6782,6 @@
   W.EventTarget.prototype = {
     _addEventListener$3: function(receiver, type, listener, options) {
       return receiver.addEventListener(type, H.convertDartClosureToJS(listener, 1), false);
-    },
-    _removeEventListener$3: function(receiver, type, listener, options) {
-      return receiver.removeEventListener(type, H.convertDartClosureToJS(listener, 1), false);
     }
   };
   W.FormElement.prototype = {
@@ -7470,35 +6907,9 @@
   W._EventStream.prototype = {
     listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {
       return W._EventStreamSubscription$(this._html$_target, this._eventType, onData, false, H.getTypeArgumentByIndex(this, 0));
-    },
-    listen$3$onDone$onError: function(onData, onDone, onError) {
-      return this.listen$4$cancelOnError$onDone$onError(onData, null, onDone, onError);
     }
   };
   W._EventStreamSubscription.prototype = {
-    cancel$0: function() {
-      if (this._html$_target == null)
-        return;
-      this._unlisten$0();
-      this._html$_target = null;
-      this._onData = null;
-      return;
-    },
-    pause$1: function(_, resumeSignal) {
-      if (this._html$_target == null)
-        return;
-      ++this._pauseCount;
-      this._unlisten$0();
-    },
-    pause$0: function($receiver) {
-      return this.pause$1($receiver, null);
-    },
-    resume$0: function() {
-      if (this._html$_target == null || this._pauseCount <= 0)
-        return;
-      --this._pauseCount;
-      this._tryResume$0();
-    },
     _tryResume$0: function() {
       var t1, t2, t3;
       t1 = this._onData;
@@ -7508,17 +6919,6 @@
         t3.toString;
         if (t2)
           J._addEventListener$3$x(t3, this._eventType, t1, false);
-      }
-    },
-    _unlisten$0: function() {
-      var t1, t2, t3;
-      t1 = this._onData;
-      t2 = t1 != null;
-      if (t2) {
-        t3 = this._html$_target;
-        t3.toString;
-        if (t2)
-          J._removeEventListener$3$x(t3, this._eventType, t1, false);
       }
     },
     _EventStreamSubscription$4: function(_target, _eventType, onData, _useCapture, $T) {
@@ -7622,46 +7022,23 @@
       return {func: 1, args: [,]};
     }
   };
-  F._dartJson_closure.prototype = {
-    call$1: function(e) {
-      return J.get$strong$x(e);
-    },
-    $signature: function() {
-      return {func: 1, args: [,]};
-    }
-  };
   J.Interceptor.prototype.super$Interceptor$toString = J.Interceptor.prototype.toString$0;
   J.JavaScriptObject.prototype.super$JavaScriptObject$toString = J.JavaScriptObject.prototype.toString$0;
-  P._BufferingStreamSubscription.prototype.super$_BufferingStreamSubscription$_add = P._BufferingStreamSubscription.prototype._async$_add$1;
-  P._BufferingStreamSubscription.prototype.super$_BufferingStreamSubscription$_addError = P._BufferingStreamSubscription.prototype._addError$2;
-  P.Iterable.prototype.super$Iterable$where = P.Iterable.prototype.where$1;
   (function installTearOffs() {
-    installTearOff(H._IsolateContext.prototype, "get$kill", 0, 0, 0, null, ["call$0"], ["kill$0"], 0);
+    installTearOff(H._IsolateContext.prototype, "get$kill", 0, 0, 0, null, ["call$0"], ["kill$0"], 1);
     installTearOff(H._Serializer.prototype, "get$serialize", 0, 0, 0, null, ["call$1"], ["serialize$1"], 2);
     installTearOff(H._Deserializer.prototype, "get$deserialize", 0, 0, 0, null, ["call$1"], ["deserialize$1"], 2);
-    installTearOff(H, "_js_helper_Primitives_dateNow$closure", 1, 0, 0, null, ["call$0"], ["Primitives_dateNow"], 5);
-    installTearOff(P, "async__AsyncRun__scheduleImmediateJsOverride$closure", 1, 0, 0, null, ["call$1"], ["_AsyncRun__scheduleImmediateJsOverride"], 1);
-    installTearOff(P, "async__AsyncRun__scheduleImmediateWithSetImmediate$closure", 1, 0, 0, null, ["call$1"], ["_AsyncRun__scheduleImmediateWithSetImmediate"], 1);
-    installTearOff(P, "async__AsyncRun__scheduleImmediateWithTimer$closure", 1, 0, 0, null, ["call$1"], ["_AsyncRun__scheduleImmediateWithTimer"], 1);
-    installTearOff(P, "async___startMicrotaskLoop$closure", 1, 0, 0, null, ["call$0"], ["_startMicrotaskLoop"], 0);
+    installTearOff(H, "_js_helper_Primitives_dateNow$closure", 1, 0, 0, null, ["call$0"], ["Primitives_dateNow"], 4);
+    installTearOff(P, "async__AsyncRun__scheduleImmediateJsOverride$closure", 1, 0, 0, null, ["call$1"], ["_AsyncRun__scheduleImmediateJsOverride"], 0);
+    installTearOff(P, "async__AsyncRun__scheduleImmediateWithSetImmediate$closure", 1, 0, 0, null, ["call$1"], ["_AsyncRun__scheduleImmediateWithSetImmediate"], 0);
+    installTearOff(P, "async__AsyncRun__scheduleImmediateWithTimer$closure", 1, 0, 0, null, ["call$1"], ["_AsyncRun__scheduleImmediateWithTimer"], 0);
+    installTearOff(P, "async___startMicrotaskLoop$closure", 1, 0, 0, null, ["call$0"], ["_startMicrotaskLoop"], 1);
     installTearOff(P._Completer.prototype, "get$completeError", 0, 0, 0, null, ["call$2", "call$1"], ["completeError$2", "completeError$1"], 3);
     installTearOff(P._Future.prototype, "get$_completeError", 0, 0, 0, null, ["call$2", "call$1"], ["_completeError$2", "_completeError$1"], 3);
-    var _;
-    installTearOff(_ = P._BufferingStreamSubscription.prototype, "get$_onPause", 0, 0, 0, null, ["call$0"], ["_onPause$0"], 0);
-    installTearOff(_, "get$_onResume", 0, 0, 0, null, ["call$0"], ["_onResume$0"], 0);
-    installTearOff(_ = P._ForwardingStreamSubscription.prototype, "get$_onPause", 0, 0, 0, null, ["call$0"], ["_onPause$0"], 0);
-    installTearOff(_, "get$_onResume", 0, 0, 0, null, ["call$0"], ["_onResume$0"], 0);
-    installTearOff(_, "get$_handleData", 0, 0, 0, null, ["call$1"], ["_handleData$1"], function() {
-      return H.computeSignature(function(S, T) {
-        return {func: 1, v: true, args: [S]};
-      }, this.$receiver, "_ForwardingStreamSubscription");
-    });
-    installTearOff(_, "get$_handleError", 0, 0, 0, null, ["call$2"], ["_handleError$2"], 4);
-    installTearOff(_, "get$_handleDone", 0, 0, 0, null, ["call$0"], ["_handleDone$0"], 0);
-    installTearOff(P, "core_Comparable_compare$closure", 1, 0, 0, null, ["call$2"], ["Comparable_compare"], 6);
-    installTearOff(X, "interop__parseJson$closure", 1, 0, 0, null, ["call$1"], ["parseJson"], 7);
-    installTearOff(F, "main__main$closure", 1, 0, 0, null, ["call$0"], ["main"], 8);
-    installTearOff(F, "main___dartNative$closure", 1, 0, 0, null, ["call$1"], ["_dartNative"], 9);
+    installTearOff(P, "core_Comparable_compare$closure", 1, 0, 0, null, ["call$2"], ["Comparable_compare"], 5);
+    installTearOff(X, "interop__parseJson$closure", 1, 0, 0, null, ["call$1"], ["parseJson"], 6);
+    installTearOff(F, "main__main$closure", 1, 0, 0, null, ["call$0"], ["main"], 7);
+    installTearOff(F, "main___dartNative$closure", 1, 0, 0, null, ["call$1"], ["_dartNative"], 8);
   })();
   (function inheritance() {
     inherit(P.Object, null);
@@ -7700,10 +7077,6 @@
     inherit(P._AsyncCallbackEntry, _);
     inherit(P.Stream, _);
     inherit(P.StreamSubscription, _);
-    inherit(P._BufferingStreamSubscription, _);
-    inherit(P._DelayedEvent, _);
-    inherit(P._DelayedDone, _);
-    inherit(P._PendingEvents, _);
     inherit(P._StreamIterator, _);
     inherit(P.AsyncError, _);
     inherit(P._Zone, _);
@@ -7759,15 +7132,12 @@
     _ = P.Iterable;
     inherit(H.EfficientLengthIterable, _);
     inherit(H.MappedIterable, _);
-    inherit(H.WhereIterable, _);
     _ = H.EfficientLengthIterable;
     inherit(H.ListIterable, _);
     inherit(H.EmptyIterable, _);
     inherit(H.LinkedHashMapKeyIterable, _);
     inherit(H.EfficientLengthMappedIterable, H.MappedIterable);
-    _ = P.Iterator;
-    inherit(H.MappedIterator, _);
-    inherit(H.WhereIterator, _);
+    inherit(H.MappedIterator, P.Iterator);
     _ = H.ListIterable;
     inherit(H.MappedListIterable, _);
     inherit(P.ListQueue, _);
@@ -7815,9 +7185,6 @@
     inherit(P._Future__propagateToListeners_handleError, _);
     inherit(P.Stream_length_closure, _);
     inherit(P.Stream_length_closure0, _);
-    inherit(P._BufferingStreamSubscription__sendError_sendError, _);
-    inherit(P._BufferingStreamSubscription__sendDone_sendDone, _);
-    inherit(P._PendingEvents_schedule_closure, _);
     inherit(P._rootHandleUncaughtError_closure, _);
     inherit(P._RootZone_bindCallback_closure, _);
     inherit(P._RootZone_bindCallback_closure0, _);
@@ -7833,7 +7200,6 @@
     inherit(F._getStats_closure1, _);
     inherit(F._getStats_closure0, _);
     inherit(F._dartNative_closure, _);
-    inherit(F._dartJson_closure, _);
     _ = H._BaseSendPort;
     inherit(H._NativeJsSendPort, _);
     inherit(H._WorkerSendPort, _);
@@ -7875,15 +7241,6 @@
     _ = P._Completer;
     inherit(P._AsyncCompleter, _);
     inherit(P._SyncCompleter, _);
-    _ = P._DelayedEvent;
-    inherit(P._DelayedData, _);
-    inherit(P._DelayedError, _);
-    inherit(P._StreamImplEvents, P._PendingEvents);
-    _ = P.Stream;
-    inherit(P._ForwardingStream, _);
-    inherit(W._EventStream, _);
-    inherit(P._ForwardingStreamSubscription, P._BufferingStreamSubscription);
-    inherit(P._WhereStream, P._ForwardingStream);
     inherit(P._RootZone, P._Zone);
     inherit(P._LinkedIdentityHashMap, H.JsLinkedHashMap);
     inherit(P.SetBase, P.SetMixin);
@@ -7919,6 +7276,7 @@
     inherit(W.SelectElement, _);
     inherit(W._HTMLFrameSetElement, _);
     inherit(W.HttpRequest, W.HttpRequestEventTarget);
+    inherit(W._EventStream, P.Stream);
     inherit(W._EventStreamSubscription, P.StreamSubscription);
     _ = P.SvgElement;
     inherit(P.GraphicsElement, _);
@@ -7977,7 +7335,6 @@
     C.UnknownJavaScriptObject_methods = J.UnknownJavaScriptObject.prototype;
     C.C_EmptyIterator = new H.EmptyIterator();
     C.C_OutOfMemoryError = new P.OutOfMemoryError();
-    C.C__DelayedDone = new P._DelayedDone();
     C.C__RootZone = new P._RootZone();
     C.Duration_0 = new P.Duration(0);
     C.JS_CONST_0 = function(hooks) {
@@ -8212,9 +7569,6 @@
     lazy($, "_AsyncRun__scheduleImmediateClosure", "$get$_AsyncRun__scheduleImmediateClosure", function() {
       return P._AsyncRun__initializeScheduleImmediate();
     });
-    lazy($, "Future__nullFuture", "$get$Future__nullFuture", function() {
-      return P._Future$value(null, P.Null);
-    });
     lazy($, "_toStringVisiting", "$get$_toStringVisiting", function() {
       return [];
     });
@@ -8260,7 +7614,7 @@
     mangledNames: {},
     getTypeFromName: getGlobalFromName,
     metadata: [],
-    types: [{func: 1, v: true}, {func: 1, v: true, args: [{func: 1, v: true}]}, {func: 1, args: [,]}, {func: 1, v: true, args: [P.Object], opt: [P.StackTrace]}, {func: 1, v: true, args: [, P.StackTrace]}, {func: 1, ret: P.num}, {func: 1, ret: P.int, args: [P.Comparable, P.Comparable]}, {func: 1, ret: [P.List, X.JSData], args: [P.String]}, {func: 1}, {func: 1, ret: [P.Iterable, B.Data], args: [P.String]}],
+    types: [{func: 1, v: true, args: [{func: 1, v: true}]}, {func: 1, v: true}, {func: 1, args: [,]}, {func: 1, v: true, args: [P.Object], opt: [P.StackTrace]}, {func: 1, ret: P.num}, {func: 1, ret: P.int, args: [P.Comparable, P.Comparable]}, {func: 1, ret: [P.List, X.JSData], args: [P.String]}, {func: 1}, {func: 1, ret: [P.Iterable, B.Data], args: [P.String]}],
     interceptorsByTag: null,
     leafTags: null
   };

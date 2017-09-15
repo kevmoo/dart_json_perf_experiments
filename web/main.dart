@@ -56,7 +56,7 @@ Duration _dartJson(String input, Iterable<Data> decode(String input)) {
 
   var count = 0;
 
-  if (false) {
+  if (true) {
     for (var e in decode(input)) {
       if (e.strong) count++;
     }

@@ -5,7 +5,7 @@
         "id": "library/85591458",
         "kind": "library",
         "name": "dart.dom.html",
-        "size": 9765,
+        "size": 8564,
         "children": [
           "class/10453800",
           "class/19733790",
@@ -312,7 +312,7 @@
         "id": "library/325218131",
         "kind": "library",
         "name": "_interceptors",
-        "size": 21392,
+        "size": 21038,
         "children": [
           "class/86936801",
           "class/245082925",
@@ -457,7 +457,7 @@
         "id": "library/631335891",
         "kind": "library",
         "name": "dart.core",
-        "size": 15198,
+        "size": 15063,
         "children": [
           "class/36312556",
           "class/70813553",
@@ -512,20 +512,18 @@
         "id": "library/689380639",
         "kind": "library",
         "name": "dart._internal",
-        "size": 12024,
+        "size": 11147,
         "children": [
           "class/202804702",
           "class/245066649",
           "class/262494508",
           "class/288096029",
           "class/365655194",
-          "class/429280391",
           "class/539359561",
           "class/540398347",
           "class/554391767",
           "class/571092653",
           "class/667622398",
-          "class/693318510",
           "class/737466373",
           "class/1071198161",
           "function/203929913",
@@ -551,7 +549,7 @@
         "id": "library/754126564",
         "kind": "library",
         "name": "dart.collection",
-        "size": 18646,
+        "size": 18405,
         "children": [
           "class/113750884",
           "class/123522748",
@@ -593,7 +591,7 @@
         "id": "library/966364039",
         "kind": "library",
         "name": "_js_helper",
-        "size": 59646,
+        "size": 59509,
         "children": [
           "class/17649844",
           "class/27679401",
@@ -700,7 +698,6 @@
           "function/892678131",
           "function/906921796",
           "function/907479362",
-          "function/914458783",
           "function/916958002",
           "function/934159057",
           "function/941855663",
@@ -756,35 +753,24 @@
         "id": "library/1052666095",
         "kind": "library",
         "name": "dart.async",
-        "size": 49396,
+        "size": 34122,
         "children": [
           "class/80405414",
           "class/146350240",
           "class/185316425",
-          "class/200888645",
-          "class/223916818",
           "class/240292734",
-          "class/247651488",
-          "class/425811673",
-          "class/438137149",
-          "class/443841979",
           "class/471305727",
           "class/566341130",
           "class/577121337",
-          "class/604138865",
           "class/611525899",
-          "class/640312620",
           "class/714718140",
           "class/733467750",
           "class/770824752",
           "class/784178238",
-          "class/830438572",
-          "class/833898502",
           "class/952584796",
           "class/961595590",
           "class/1012203707",
           "class/1040168844",
-          "class/1045817757",
           "class/1059755229",
           "field/29748263",
           "field/639289778",
@@ -803,7 +789,6 @@
           "function/412886703",
           "function/415620823",
           "function/436977056",
-          "function/546618541",
           "function/650942169",
           "function/658921946",
           "function/663282901",
@@ -847,7 +832,7 @@
         "id": "library/1072826276",
         "kind": "library",
         "name": "<unnamed>",
-        "size": 4282,
+        "size": 4131,
         "children": [
           "function/56256733",
           "function/114226449",
@@ -1146,7 +1131,7 @@
         "id": "class/70813553",
         "kind": "class",
         "name": "Iterable",
-        "size": 1177,
+        "size": 1042,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/631335891",
         "modifiers": {
@@ -1157,7 +1142,6 @@
           "function/66015995",
           "function/112452456",
           "function/263323597",
-          "function/359145645",
           "function/407995169",
           "function/430236296",
           "function/515934975",
@@ -1226,7 +1210,6 @@
           "function/748173162",
           "function/795411795",
           "function/919469907",
-          "function/984634330",
           "function/1030881401",
           "function/1055095230"
         ]
@@ -1803,7 +1786,7 @@
         "id": "class/172151835",
         "kind": "class",
         "name": "ListMixin",
-        "size": 805,
+        "size": 654,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/754126564",
         "modifiers": {
@@ -1811,7 +1794,6 @@
         },
         "children": [
           "function/291238918",
-          "function/400333142",
           "function/583030208",
           "function/778843282",
           "function/983855881"
@@ -1975,28 +1957,6 @@
         },
         "children": []
       },
-      "200888645": {
-        "id": "class/200888645",
-        "kind": "class",
-        "name": "_ForwardingStreamSubscription",
-        "size": 1928,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/340913736",
-          "function/370282940",
-          "function/433073642",
-          "function/595633979",
-          "function/613320383",
-          "function/726074004",
-          "function/868884762",
-          "function/959640014",
-          "function/1052831043"
-        ]
-      },
       "201989315": {
         "id": "class/201989315",
         "kind": "class",
@@ -2058,23 +2018,6 @@
         "children": [
           "function/431897853",
           "function/806420362"
-        ]
-      },
-      "223916818": {
-        "id": "class/223916818",
-        "kind": "class",
-        "name": "_PendingEvents",
-        "size": 1027,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": true
-        },
-        "children": [
-          "function/559500000",
-          "function/630981326",
-          "function/683763320",
-          "function/717021501"
         ]
       },
       "224053384": {
@@ -2190,21 +2133,6 @@
         "children": [
           "function/175997763",
           "function/991909617"
-        ]
-      },
-      "247651488": {
-        "id": "class/247651488",
-        "kind": "class",
-        "name": "_DelayedError",
-        "size": 276,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/271002266",
-          "function/432094443"
         ]
       },
       "252654247": {
@@ -2926,21 +2854,6 @@
         },
         "children": []
       },
-      "425811673": {
-        "id": "class/425811673",
-        "kind": "class",
-        "name": "_WhereStream",
-        "size": 705,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/549345412",
-          "function/664655165"
-        ]
-      },
       "427740495": {
         "id": "class/427740495",
         "kind": "class",
@@ -2964,21 +2877,6 @@
           "abstract": false
         },
         "children": []
-      },
-      "429280391": {
-        "id": "class/429280391",
-        "kind": "class",
-        "name": "WhereIterable",
-        "size": 287,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/689380639",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/728557802",
-          "function/730901830"
-        ]
       },
       "429451032": {
         "id": "class/429451032",
@@ -3024,20 +2922,6 @@
         },
         "children": []
       },
-      "438137149": {
-        "id": "class/438137149",
-        "kind": "class",
-        "name": "Future",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": true
-        },
-        "children": [
-          "field/1022934707"
-        ]
-      },
       "438582966": {
         "id": "class/438582966",
         "kind": "class",
@@ -3063,22 +2947,6 @@
         "children": [
           "function/292574817",
           "function/645622339"
-        ]
-      },
-      "443841979": {
-        "id": "class/443841979",
-        "kind": "class",
-        "name": "_DelayedDone",
-        "size": 294,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/263785933",
-          "function/939771908",
-          "function/939771909"
         ]
       },
       "447096903": {
@@ -3265,7 +3133,7 @@
         "id": "class/493717425",
         "kind": "class",
         "name": "_EventStream",
-        "size": 648,
+        "size": 488,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/85591458",
         "modifiers": {
@@ -3357,7 +3225,7 @@
         "id": "class/523978038",
         "kind": "class",
         "name": "JSArray",
-        "size": 3955,
+        "size": 3823,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/325218131",
         "modifiers": {
@@ -3383,7 +3251,6 @@
           "function/543418398",
           "function/566015677",
           "function/653699436",
-          "function/718065618",
           "function/754746840",
           "function/952130975",
           "function/979933658",
@@ -3444,7 +3311,7 @@
         "id": "class/539359561",
         "kind": "class",
         "name": "EmptyIterable",
-        "size": 493,
+        "size": 434,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/689380639",
         "modifiers": {
@@ -3454,15 +3321,14 @@
           "function/41668115",
           "function/379173991",
           "function/823151285",
-          "function/845542373",
-          "function/1016903320"
+          "function/845542373"
         ]
       },
       "540398347": {
         "id": "class/540398347",
         "kind": "class",
         "name": "ListIterable",
-        "size": 711,
+        "size": 622,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/689380639",
         "modifiers": {
@@ -3470,7 +3336,6 @@
         },
         "children": [
           "function/248588389",
-          "function/847863703",
           "function/852972506"
         ]
       },
@@ -3652,7 +3517,7 @@
         "id": "class/562571521",
         "kind": "class",
         "name": "_EventStreamSubscription",
-        "size": 1928,
+        "size": 1063,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/85591458",
         "modifiers": {
@@ -3661,12 +3526,7 @@
         "children": [
           "function/55764546",
           "function/129973416",
-          "function/423379907",
-          "function/456685986",
-          "function/598964169",
-          "function/720351286",
-          "function/791144318",
-          "function/881358956"
+          "function/791144318"
         ]
       },
       "562873772": {
@@ -3685,7 +3545,7 @@
         "id": "class/566341130",
         "kind": "class",
         "name": "_RootZone",
-        "size": 3294,
+        "size": 2801,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1052666095",
         "modifiers": {
@@ -3693,7 +3553,6 @@
         },
         "children": [
           "function/63166902",
-          "function/157770345",
           "function/164775669",
           "function/338379080",
           "function/351622741",
@@ -3936,49 +3795,6 @@
           "abstract": false
         },
         "children": []
-      },
-      "604138865": {
-        "id": "class/604138865",
-        "kind": "class",
-        "name": "_BufferingStreamSubscription",
-        "size": 7424,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/9832624",
-          "function/58492538",
-          "function/104977034",
-          "function/105995487",
-          "function/135722261",
-          "function/247154050",
-          "function/276933896",
-          "function/283680912",
-          "function/349794930",
-          "function/383364052",
-          "function/389892474",
-          "function/398737825",
-          "function/398913941",
-          "function/436334269",
-          "function/444410091",
-          "function/500288813",
-          "function/564169382",
-          "function/567829787",
-          "function/601591851",
-          "function/711384428",
-          "function/770447422",
-          "function/872925756",
-          "function/881893213",
-          "function/899914725",
-          "function/947459505",
-          "function/992198936",
-          "function/1006600695",
-          "function/1033462512",
-          "function/1049951884",
-          "function/1056628789"
-        ]
       },
       "604738335": {
         "id": "class/604738335",
@@ -4229,24 +4045,6 @@
         },
         "children": []
       },
-      "640312620": {
-        "id": "class/640312620",
-        "kind": "class",
-        "name": "_ForwardingStream",
-        "size": 962,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": true
-        },
-        "children": [
-          "function/101169050",
-          "function/378476254",
-          "function/510130223",
-          "function/591985510",
-          "function/654890108"
-        ]
-      },
       "641591578": {
         "id": "class/641591578",
         "kind": "class",
@@ -4343,17 +4141,15 @@
         "id": "class/661490465",
         "kind": "class",
         "name": "EventTarget",
-        "size": 408,
+        "size": 232,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/85591458",
         "modifiers": {
           "abstract": false
         },
         "children": [
-          "function/433098641",
           "function/579004227",
-          "function/928973022",
-          "function/953175377"
+          "function/928973022"
         ]
       },
       "665153380": {
@@ -4550,22 +4346,6 @@
         },
         "children": [
           "function/173208082"
-        ]
-      },
-      "693318510": {
-        "id": "class/693318510",
-        "kind": "class",
-        "name": "WhereIterator",
-        "size": 442,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/689380639",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/137461907",
-          "function/320738480",
-          "function/865591630"
         ]
       },
       "693359846": {
@@ -4920,15 +4700,14 @@
         "id": "class/758572498",
         "kind": "class",
         "name": "SetMixin",
-        "size": 322,
+        "size": 232,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/754126564",
         "modifiers": {
           "abstract": true
         },
         "children": [
-          "function/176570718",
-          "function/311945779"
+          "function/176570718"
         ]
       },
       "758827947": {
@@ -5084,7 +4863,7 @@
         "id": "class/784178238",
         "kind": "class",
         "name": "_Future",
-        "size": 12608,
+        "size": 12304,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1052666095",
         "modifiers": {
@@ -5100,11 +4879,9 @@
           "function/96457955",
           "function/263363184",
           "function/271674536",
-          "function/289180415",
           "function/292751514",
           "function/325386239",
           "function/352514166",
-          "function/472201782",
           "function/519629171",
           "function/533906117",
           "function/553149607",
@@ -5383,18 +5160,6 @@
           "function/1027845407"
         ]
       },
-      "830438572": {
-        "id": "class/830438572",
-        "kind": "class",
-        "name": "_DelayedEvent",
-        "size": 191,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": true
-        },
-        "children": []
-      },
       "831546412": {
         "id": "class/831546412",
         "kind": "class",
@@ -5406,21 +5171,6 @@
           "abstract": false
         },
         "children": []
-      },
-      "833898502": {
-        "id": "class/833898502",
-        "kind": "class",
-        "name": "_DelayedData",
-        "size": 235,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/919008289",
-          "function/926065480"
-        ]
       },
       "844191589": {
         "id": "class/844191589",
@@ -6168,15 +5918,14 @@
         "id": "class/961595590",
         "kind": "class",
         "name": "Stream",
-        "size": 1067,
+        "size": 935,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1052666095",
         "modifiers": {
           "abstract": true
         },
         "children": [
-          "function/31006852",
-          "function/409966605"
+          "function/31006852"
         ]
       },
       "965279547": {
@@ -6673,23 +6422,6 @@
           "function/188708191"
         ]
       },
-      "1045817757": {
-        "id": "class/1045817757",
-        "kind": "class",
-        "name": "_StreamImplEvents",
-        "size": 558,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "modifiers": {
-          "abstract": false
-        },
-        "children": [
-          "function/14519227",
-          "function/92202521",
-          "function/836260258",
-          "function/1063092922"
-        ]
-      },
       "1050367253": {
         "id": "class/1050367253",
         "kind": "class",
@@ -6931,35 +6663,6 @@
         "type": "(num) -> double",
         "measurements": null
       },
-      "9832624": {
-        "id": "function/9832624",
-        "kind": "function",
-        "name": "onData",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "handleData",
-            "type": "[subtype=Function]",
-            "declaredType": "(_BufferingStreamSubscription.T) -> void"
-          }
-        ],
-        "sideEffects": "Depends on field store, Changes field.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "((_BufferingStreamSubscription.T) -> void) -> void",
-        "measurements": null
-      },
       "10149926": {
         "id": "function/10149926",
         "kind": "function",
@@ -7021,35 +6724,6 @@
         "inlinedCount": 4,
         "code": null,
         "type": "(Object, StackTrace) -> dynamic",
-        "measurements": null
-      },
-      "14519227": {
-        "id": "function/14519227",
-        "kind": "function",
-        "name": "add",
-        "size": 269,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/1045817757",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "event",
-            "type": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]",
-            "declaredType": "_DelayedEvent"
-          }
-        ],
-        "sideEffects": "Depends on field store, Changes field.",
-        "inlinedCount": 0,
-        "code": "add$1: function(_, $event) {\n  var t1 = this.lastPendingEvent;\n  if (t1 == null) {\n    this.lastPendingEvent = $event;\n    this.firstPendingEvent = $event;\n  } else {\n    t1.set$next($event);\n    this.lastPendingEvent = $event;\n  }\n}\n",
-        "type": "(_DelayedEvent) -> void",
         "measurements": null
       },
       "15204906": {
@@ -8379,29 +8053,6 @@
         "type": "() -> String",
         "measurements": null
       },
-      "58492538": {
-        "id": "function/58492538",
-        "kind": "function",
-        "name": "_mayResumeInput",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
       "62254055": {
         "id": "function/62254055",
         "kind": "function",
@@ -9030,35 +8681,6 @@
         "type": "() -> int",
         "measurements": null
       },
-      "92202521": {
-        "id": "function/92202521",
-        "kind": "function",
-        "name": "handleNext",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/1045817757",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "dispatch",
-            "type": "[subclass=_BufferingStreamSubscription]",
-            "declaredType": "_EventDispatch<_StreamImplEvents.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(_EventDispatch<_StreamImplEvents.T>) -> void",
-        "measurements": null
-      },
       "93381370": {
         "id": "function/93381370",
         "kind": "function",
@@ -9100,7 +8722,7 @@
         "inferredReturnType": "[exact=_Future]",
         "parameters": [],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 6,
+        "inlinedCount": 5,
         "code": null,
         "type": "() -> dynamic",
         "measurements": null
@@ -9267,40 +8889,6 @@
         "type": "(Duration) -> int",
         "measurements": null
       },
-      "101169050": {
-        "id": "function/101169050",
-        "kind": "function",
-        "name": "_handleData",
-        "size": 75,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/640312620",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "data",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_ForwardingStream.S"
-          },
-          {
-            "name": "sink",
-            "type": "[subclass=_ForwardingStreamSubscription]",
-            "declaredType": "_EventSink<_ForwardingStream.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_handleData$2: function(data, sink) {\n  sink._async$_add$1(data);\n}\n",
-        "type": "(_ForwardingStream.S, _EventSink<_ForwardingStream.T>) -> void",
-        "measurements": null
-      },
       "102471615": {
         "id": "function/102471615",
         "kind": "function",
@@ -9328,69 +8916,6 @@
         "inlinedCount": 0,
         "code": "complete$1: function(_, value) {\n  var t1 = this.future;\n  if (t1._state !== 0)\n    throw H.wrapException(new P.StateError(\"Future already completed\"));\n  t1._asyncComplete$1(value);\n}\n",
         "type": "([dynamic]) -> void",
-        "measurements": null
-      },
-      "104977034": {
-        "id": "function/104977034",
-        "kind": "function",
-        "name": "_sendData",
-        "size": 259,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "data",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_BufferingStreamSubscription.T"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_sendData$1: function(data) {\n  var t1 = this._state;\n  this._state = (t1 | 32) >>> 0;\n  this._zone.runUnaryGuarded$2(this._async$_onData, data);\n  this._state = (this._state & 4294967263) >>> 0;\n  this._checkState$1((t1 & 4) !== 0);\n}\n",
-        "type": "(_BufferingStreamSubscription.T) -> void",
-        "measurements": null
-      },
-      "105995487": {
-        "id": "function/105995487",
-        "kind": "function",
-        "name": "_addError",
-        "size": 268,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "StackTrace"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_addError$2: function(error, stackTrace) {\n  var t1 = this._state;\n  if ((t1 & 8) !== 0)\n    return;\n  if (t1 < 32)\n    this._sendError$2(error, stackTrace);\n  else\n    this._addPending$1(new P._DelayedError(error, stackTrace, null));\n}\n",
-        "type": "(Object, StackTrace) -> void",
         "measurements": null
       },
       "108053021": {
@@ -10065,35 +9590,6 @@
         "type": "() -> bool",
         "measurements": null
       },
-      "135722261": {
-        "id": "function/135722261",
-        "kind": "function",
-        "name": "_checkState",
-        "size": 1109,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "wasInputPaused",
-            "type": "[exact=JSBool]",
-            "declaredType": "bool"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_checkState$1: function(wasInputPaused) {\n  var t1, t2, isInputPaused;\n  t1 = this._state;\n  if ((t1 & 64) !== 0 && this._pending.lastPendingEvent == null) {\n    t1 = (t1 & 4294967231) >>> 0;\n    this._state = t1;\n    if ((t1 & 4) !== 0)\n      if (t1 < 128) {\n        t2 = this._pending;\n        t2 = t2 == null || t2.lastPendingEvent == null;\n      } else\n        t2 = false;\n    else\n      t2 = false;\n    if (t2) {\n      t1 = (t1 & 4294967291) >>> 0;\n      this._state = t1;\n    }\n  }\n  for (; true; wasInputPaused = isInputPaused) {\n    if ((t1 & 8) !== 0) {\n      this._pending = null;\n      return;\n    }\n    isInputPaused = (t1 & 4) !== 0;\n    if (wasInputPaused === isInputPaused)\n      break;\n    this._state = (t1 ^ 32) >>> 0;\n    if (isInputPaused)\n      this._onPause$0();\n    else\n      this._onResume$0();\n    t1 = (this._state & 4294967263) >>> 0;\n    this._state = t1;\n  }\n  if ((t1 & 64) !== 0 && t1 < 128)\n    this._pending.schedule$1(this);\n}\n",
-        "type": "(bool) -> void",
-        "measurements": null
-      },
       "136972596": {
         "id": "function/136972596",
         "kind": "function",
@@ -10126,29 +9622,6 @@
         "inlinedCount": 0,
         "code": "function(s, t) {\n  var sReturnType, tReturnType, sParameterTypes, tParameterTypes, sOptionalParameterTypes, tOptionalParameterTypes, sParametersLen, tParametersLen, sOptionalParametersLen, tOptionalParametersLen, pos, t1, t2, tPos, sPos;\n  if (!('func' in s))\n    return false;\n  if (\"v\" in s) {\n    if (!(\"v\" in t) && \"ret\" in t)\n      return false;\n  } else if (!(\"v\" in t)) {\n    sReturnType = s.ret;\n    tReturnType = t.ret;\n    if (!(H.isSubtype(sReturnType, tReturnType) || H.isSubtype(tReturnType, sReturnType)))\n      return false;\n  }\n  sParameterTypes = s.args;\n  tParameterTypes = t.args;\n  sOptionalParameterTypes = s.opt;\n  tOptionalParameterTypes = t.opt;\n  sParametersLen = sParameterTypes != null ? sParameterTypes.length : 0;\n  tParametersLen = tParameterTypes != null ? tParameterTypes.length : 0;\n  sOptionalParametersLen = sOptionalParameterTypes != null ? sOptionalParameterTypes.length : 0;\n  tOptionalParametersLen = tOptionalParameterTypes != null ? tOptionalParameterTypes.length : 0;\n  if (sParametersLen > tParametersLen)\n    return false;\n  if (sParametersLen + sOptionalParametersLen < tParametersLen + tOptionalParametersLen)\n    return false;\n  if (sParametersLen === tParametersLen) {\n    if (!H.areAssignable(sParameterTypes, tParameterTypes, false))\n      return false;\n    if (!H.areAssignable(sOptionalParameterTypes, tOptionalParameterTypes, true))\n      return false;\n  } else {\n    for (pos = 0; pos < sParametersLen; ++pos) {\n      t1 = sParameterTypes[pos];\n      t2 = tParameterTypes[pos];\n      if (!(H.isSubtype(t1, t2) || H.isSubtype(t2, t1)))\n        return false;\n    }\n    for (tPos = pos, sPos = 0; tPos < tParametersLen; ++sPos, ++tPos) {\n      t1 = sOptionalParameterTypes[sPos];\n      t2 = tParameterTypes[tPos];\n      if (!(H.isSubtype(t1, t2) || H.isSubtype(t2, t1)))\n        return false;\n    }\n    for (tPos = 0; tPos < tOptionalParametersLen; ++sPos, ++tPos) {\n      t1 = sOptionalParameterTypes[sPos];\n      t2 = tOptionalParameterTypes[tPos];\n      if (!(H.isSubtype(t1, t2) || H.isSubtype(t2, t1)))\n        return false;\n    }\n  }\n  return H.areAssignableMaps(s.named, t.named);\n}\n",
         "type": "(dynamic, dynamic) -> bool",
-        "measurements": null
-      },
-      "137461907": {
-        "id": "function/137461907",
-        "kind": "function",
-        "name": "moveNext",
-        "size": 196,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/693318510",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "moveNext$0: function() {\n  var t1, t2;\n  for (t1 = this._iterator, t2 = this._f; t1.moveNext$0();)\n    if (t2.call$1(t1.get$current()))\n      return true;\n  return false;\n}\n",
-        "type": "() -> bool",
         "measurements": null
       },
       "140575206": {
@@ -10676,45 +10149,6 @@
         "type": "() -> int",
         "measurements": null
       },
-      "157770345": {
-        "id": "function/157770345",
-        "kind": "function",
-        "name": "runBinaryGuarded",
-        "size": 487,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/566341130",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "runBinaryGuarded.R",
-        "inferredReturnType": "[null|subclass=Object]",
-        "parameters": [
-          {
-            "name": "f",
-            "type": "[null|subtype=Function]",
-            "declaredType": "(runBinaryGuarded.T1, runBinaryGuarded.T2) -> runBinaryGuarded.R"
-          },
-          {
-            "name": "arg1",
-            "type": "[null|subclass=Object]",
-            "declaredType": "runBinaryGuarded.T1"
-          },
-          {
-            "name": "arg2",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "runBinaryGuarded.T2"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "runBinaryGuarded$3: function(f, arg1, arg2) {\n  var e, s, t1, exception;\n  try {\n    if (C.C__RootZone === $.Zone__current) {\n      t1 = f.call$2(arg1, arg2);\n      return t1;\n    }\n    t1 = P._rootRunBinary(null, null, this, f, arg1, arg2);\n    return t1;\n  } catch (exception) {\n    e = H.unwrapException(exception);\n    s = H.getTraceFromException(exception);\n    return P._rootHandleUncaughtError(null, null, this, e, s);\n  }\n}\n",
-        "type": "((runBinaryGuarded.T1, runBinaryGuarded.T2) -> runBinaryGuarded.R, runBinaryGuarded.T1, runBinaryGuarded.T2) -> runBinaryGuarded.R",
-        "measurements": null
-      },
       "159099030": {
         "id": "function/159099030",
         "kind": "function",
@@ -10963,7 +10397,7 @@
           }
         ],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 3,
+        "inlinedCount": 1,
         "code": null,
         "type": "(() -> registerCallback.R) -> ZoneCallback<registerCallback.R>",
         "measurements": null
@@ -12114,7 +11548,7 @@
         "id": "function/226045063",
         "kind": "function",
         "name": "listen",
-        "size": 378,
+        "size": 224,
         "outputUnit": "outputUnit/669725655",
         "parent": "class/493717425",
         "children": [],
@@ -12150,7 +11584,7 @@
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
         "inlinedCount": 3,
-        "code": "listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {\n  return W._EventStreamSubscription$(this._html$_target, this._eventType, onData, false, H.getTypeArgumentByIndex(this, 0));\n}\nlisten$3$onDone$onError: function(onData, onDone, onError) {\n  return this.listen$4$cancelOnError$onDone$onError(onData, null, onDone, onError);\n}\n",
+        "code": "listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {\n  return W._EventStreamSubscription$(this._html$_target, this._eventType, onData, false, H.getTypeArgumentByIndex(this, 0));\n}\n",
         "type": "((_EventStream.T) -> void, {bool cancelOnError, () -> void onDone, Function onError}) -> StreamSubscription<_EventStream.T>",
         "measurements": null
       },
@@ -12555,29 +11989,6 @@
         "inlinedCount": 0,
         "code": "function() {\n  return Date.now();\n}\n",
         "type": "() -> num",
-        "measurements": null
-      },
-      "247154050": {
-        "id": "function/247154050",
-        "kind": "function",
-        "name": "_isCanceled",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 8,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "248588389": {
@@ -13008,35 +12419,6 @@
         "type": "(dynamic, StackTrace) -> void",
         "measurements": null
       },
-      "263785933": {
-        "id": "function/263785933",
-        "kind": "function",
-        "name": "perform",
-        "size": 67,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/443841979",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "dispatch",
-            "type": "[subclass=_BufferingStreamSubscription]",
-            "declaredType": "_EventDispatch"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "perform$1: function(dispatch) {\n  dispatch._sendDone$0();\n}\n",
-        "type": "(_EventDispatch) -> void",
-        "measurements": null
-      },
       "263798810": {
         "id": "function/263798810",
         "kind": "function",
@@ -13165,40 +12547,6 @@
         "type": "(dynamic, int) -> dynamic",
         "measurements": null
       },
-      "271002266": {
-        "id": "function/271002266",
-        "kind": "function",
-        "name": "_DelayedError",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/247651488",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_DelayedError]",
-        "parameters": [
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "StackTrace"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(dynamic, StackTrace) -> dynamic",
-        "measurements": null
-      },
       "271556856": {
         "id": "function/271556856",
         "kind": "function",
@@ -13223,7 +12571,7 @@
           }
         ],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 6,
+        "inlinedCount": 5,
         "code": null,
         "type": "(String) -> dynamic",
         "measurements": null
@@ -13479,35 +12827,6 @@
         "type": "(_LinkedHashSet.E) -> bool",
         "measurements": null
       },
-      "276933896": {
-        "id": "function/276933896",
-        "kind": "function",
-        "name": "onError",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "handleError",
-            "type": "[subtype=Function]",
-            "declaredType": "Function"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(Function) -> void",
-        "measurements": null
-      },
       "278459792": {
         "id": "function/278459792",
         "kind": "function",
@@ -13618,35 +12937,6 @@
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
-      "283680912": {
-        "id": "function/283680912",
-        "kind": "function",
-        "name": "_add",
-        "size": 298,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "data",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_BufferingStreamSubscription.T"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_async$_add$1: function(data) {\n  var t1 = this._state;\n  if ((t1 & 8) !== 0)\n    return;\n  if (t1 < 32)\n    this._sendData$1(data);\n  else\n    this._addPending$1(new P._DelayedData(data, null, [H.getRuntimeTypeArgument(this, \"_BufferingStreamSubscription\", 0)]));\n}\n",
-        "type": "(_BufferingStreamSubscription.T) -> void",
-        "measurements": null
-      },
       "285148179": {
         "id": "function/285148179",
         "kind": "function",
@@ -13674,12 +12964,10 @@
         "id": "function/285366197",
         "kind": "function",
         "name": "_dartJson",
-        "size": 883,
+        "size": 732,
         "outputUnit": "outputUnit/669725655",
         "parent": "library/1072826276",
-        "children": [
-          "closure/103489127"
-        ],
+        "children": [],
         "modifiers": {
           "static": false,
           "const": false,
@@ -13702,7 +12990,7 @@
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
         "inlinedCount": 0,
-        "code": "function(input, decode) {\n  var stopwatch, t1;\n  stopwatch = new P.Stopwatch(0, 0);\n  if ($.Stopwatch__frequency == null) {\n    H.Primitives_initTicker();\n    $.Stopwatch__frequency = $.Primitives_timerFrequency;\n  }\n  t1 = $.Primitives_timerTicks.call$0();\n  stopwatch._start = t1 - 0;\n  stopwatch._stop = null;\n  t1 = J.where$1$ax(decode.call$1(input), new F._dartJson_closure());\n  t1.get$length(t1);\n  t1 = stopwatch._stop;\n  if (t1 == null)\n    t1 = $.Primitives_timerTicks.call$0();\n  return P.Duration$(0, 0, C.JSInt_methods.$tdiv((t1 - stopwatch._start) * 1000000, $.Stopwatch__frequency), 0, 0, 0);\n}\n",
+        "code": "function(input, decode) {\n  var stopwatch, t1, count;\n  stopwatch = new P.Stopwatch(0, 0);\n  if ($.Stopwatch__frequency == null) {\n    H.Primitives_initTicker();\n    $.Stopwatch__frequency = $.Primitives_timerFrequency;\n  }\n  t1 = $.Primitives_timerTicks.call$0();\n  stopwatch._start = t1 - 0;\n  stopwatch._stop = null;\n  for (t1 = J.get$iterator$ax(decode.call$1(input)), count = 0; t1.moveNext$0();)\n    if (J.get$strong$x(t1.get$current()))\n      ++count;\n  t1 = stopwatch._stop;\n  if (t1 == null)\n    t1 = $.Primitives_timerTicks.call$0();\n  return P.Duration$(0, 0, C.JSInt_methods.$tdiv((t1 - stopwatch._start) * 1000000, $.Stopwatch__frequency), 0, 0, 0);\n}\n",
         "type": "(String, (String) -> Iterable<Data>) -> Duration",
         "measurements": null
       },
@@ -13730,35 +13018,6 @@
         "inlinedCount": 0,
         "code": "toString$0: function(_) {\n  var t1, t2, twoDigitMinutes, twoDigitSeconds, sixDigitUs;\n  t1 = new P.Duration_toString_twoDigits();\n  t2 = this._duration;\n  if (t2 < 0)\n    return \"-\" + new P.Duration(0 - t2).toString$0(0);\n  twoDigitMinutes = t1.call$1(C.JSInt_methods._tdivFast$1(t2, 60000000) % 60);\n  twoDigitSeconds = t1.call$1(C.JSInt_methods._tdivFast$1(t2, 1000000) % 60);\n  sixDigitUs = new P.Duration_toString_sixDigits().call$1(t2 % 1000000);\n  return \"\" + C.JSInt_methods._tdivFast$1(t2, 3600000000) + \":\" + H.S(twoDigitMinutes) + \":\" + H.S(twoDigitSeconds) + \".\" + H.S(sixDigitUs);\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "289180415": {
-        "id": "function/289180415",
-        "kind": "function",
-        "name": "_Future.value",
-        "size": 164,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/784178238",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_Future]",
-        "parameters": [
-          {
-            "name": "value",
-            "type": "Value mask: [false] type: [null|exact=JSBool]",
-            "declaredType": "_Future.T"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "function(value, $T) {\n  var t1 = new P._Future(0, $.Zone__current, null, [$T]);\n  t1._state = 4;\n  t1._resultOrListeners = value;\n  return t1;\n}\n",
-        "type": "(_Future.T) -> dynamic",
         "measurements": null
       },
       "289592777": {
@@ -14319,35 +13578,6 @@
         "type": "(Function, dynamic, int, dynamic, dynamic, dynamic, dynamic) -> dynamic",
         "measurements": null
       },
-      "311945779": {
-        "id": "function/311945779",
-        "kind": "function",
-        "name": "where",
-        "size": 84,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/758572498",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterable<SetMixin.E>",
-        "inferredReturnType": "[exact=WhereIterable]",
-        "parameters": [
-          {
-            "name": "f",
-            "type": "[subtype=Function]",
-            "declaredType": "(SetMixin.E) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "where$1: function(_, f) {\n  return new H.WhereIterable(this, f, this.$ti);\n}\n",
-        "type": "((SetMixin.E) -> bool) -> Iterable<SetMixin.E>",
-        "measurements": null
-      },
       "312590976": {
         "id": "function/312590976",
         "kind": "function",
@@ -14614,29 +13844,6 @@
         "inlinedCount": 2,
         "code": null,
         "type": "() -> bool",
-        "measurements": null
-      },
-      "320738480": {
-        "id": "function/320738480",
-        "kind": "function",
-        "name": "current",
-        "size": 74,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/693318510",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "WhereIterator.E",
-        "inferredReturnType": "[null|subclass=Object]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "get$current: function() {\n  return this._iterator.get$current();\n}\n",
-        "type": "() -> WhereIterator.E",
         "measurements": null
       },
       "325386239": {
@@ -15155,7 +14362,7 @@
           }
         ],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 2,
+        "inlinedCount": 1,
         "code": null,
         "type": "(Object, StackTrace) -> AsyncError",
         "measurements": null
@@ -15192,29 +14399,6 @@
         "inlinedCount": 0,
         "code": "function(target, substitutionName) {\n  return H.substitute(target[\"$as\" + H.S(substitutionName)], H.getRuntimeTypeInfo(target));\n}\n",
         "type": "(dynamic, dynamic) -> dynamic",
-        "measurements": null
-      },
-      "340913736": {
-        "id": "function/340913736",
-        "kind": "function",
-        "name": "_onPause",
-        "size": 124,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_onPause$0: function() {\n  var t1 = this._subscription;\n  if (t1 == null)\n    return;\n  t1.pause$0(0);\n}\n",
-        "type": "() -> void",
         "measurements": null
       },
       "341046768": {
@@ -15406,29 +14590,6 @@
         "inlinedCount": 0,
         "code": "get$hashCode: function(receiver) {\n  var t1, hash, i;\n  for (t1 = receiver.length, hash = 0, i = 0; i < t1; ++i) {\n    hash = 536870911 & hash + receiver.charCodeAt(i);\n    hash = 536870911 & hash + ((524287 & hash) << 10);\n    hash ^= hash >> 6;\n  }\n  hash = 536870911 & hash + ((67108863 & hash) << 3);\n  hash ^= hash >> 11;\n  return 536870911 & hash + ((16383 & hash) << 15);\n}\n",
         "type": "() -> int",
-        "measurements": null
-      },
-      "349794930": {
-        "id": "function/349794930",
-        "kind": "function",
-        "name": "cancel",
-        "size": 244,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Future",
-        "inferredReturnType": "[null|exact=_Future]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "cancel$0: function() {\n  var t1 = (this._state & 4294967279) >>> 0;\n  this._state = t1;\n  if ((t1 & 8) === 0)\n    this._cancel$0();\n  t1 = this._cancelFuture;\n  return t1 == null ? $.$get$Future__nullFuture() : t1;\n}\n",
-        "type": "() -> Future",
         "measurements": null
       },
       "349997389": {
@@ -15643,29 +14804,6 @@
         "type": "(Object) -> String",
         "measurements": null
       },
-      "355515285": {
-        "id": "function/355515285",
-        "kind": "function",
-        "name": "call",
-        "size": 540,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "closure/915662705",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "call$0: function() {\n  var t1, t2, t3, t4, t5, t6;\n  t1 = this.$this;\n  t2 = t1._state;\n  if ((t2 & 8) !== 0 && (t2 & 16) === 0)\n    return;\n  t1._state = (t2 | 32) >>> 0;\n  t2 = t1._onError;\n  t3 = H.functionTypeTest(t2, {func: 1, args: [P.Object, P.StackTrace]});\n  t4 = t1._zone;\n  t5 = this.error;\n  t6 = t1._onError;\n  if (t3)\n    t4.runBinaryGuarded$3(t6, t5, this.stackTrace);\n  else\n    t4.runUnaryGuarded$2(t6, t5);\n  t1._state = (t1._state & 4294967263) >>> 0;\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "357240896": {
         "id": "function/357240896",
         "kind": "function",
@@ -15779,35 +14917,6 @@
         "inlinedCount": 10,
         "code": null,
         "type": "(Object) -> void",
-        "measurements": null
-      },
-      "359145645": {
-        "id": "function/359145645",
-        "kind": "function",
-        "name": "where",
-        "size": 129,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/70813553",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterable<Iterable.E>",
-        "inferredReturnType": "[exact=WhereIterable]",
-        "parameters": [
-          {
-            "name": "test",
-            "type": "[subtype=Function]",
-            "declaredType": "(Iterable.E) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "where$1: function(_, test) {\n  return new H.WhereIterable(this, test, [H.getRuntimeTypeArgument(this, \"Iterable\", 0)]);\n}\n",
-        "type": "((Iterable.E) -> bool) -> Iterable<Iterable.E>",
         "measurements": null
       },
       "359535976": {
@@ -16056,40 +15165,6 @@
         "type": "() -> bool",
         "measurements": null
       },
-      "370282940": {
-        "id": "function/370282940",
-        "kind": "function",
-        "name": "_handleError",
-        "size": 111,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "StackTrace"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_handleError$2: function(error, stackTrace) {\n  this._stream._handleError$3(error, stackTrace, this);\n}\n",
-        "type": "(dynamic, StackTrace) -> void",
-        "measurements": null
-      },
       "370295194": {
         "id": "function/370295194",
         "kind": "function",
@@ -16228,50 +15303,6 @@
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
-      "378476254": {
-        "id": "function/378476254",
-        "kind": "function",
-        "name": "_createSubscription",
-        "size": 284,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/640312620",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "StreamSubscription<_ForwardingStream.T>",
-        "inferredReturnType": "[exact=_ForwardingStreamSubscription]",
-        "parameters": [
-          {
-            "name": "onData",
-            "type": "[subtype=Function]",
-            "declaredType": "(_ForwardingStream.T) -> void"
-          },
-          {
-            "name": "onError",
-            "type": "[subtype=Function]",
-            "declaredType": "Function"
-          },
-          {
-            "name": "onDone",
-            "type": "[subtype=Function]",
-            "declaredType": "() -> void"
-          },
-          {
-            "name": "cancelOnError",
-            "type": "[exact=JSBool]",
-            "declaredType": "bool"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_createSubscription$4: function(onData, onError, onDone, cancelOnError) {\n  return P._ForwardingStreamSubscription$(this, onData, onError, onDone, cancelOnError, H.getRuntimeTypeArgument(this, \"_ForwardingStream\", 0), H.getRuntimeTypeArgument(this, \"_ForwardingStream\", 1));\n}\n",
-        "type": "((_ForwardingStream.T) -> void, Function, () -> void, bool) -> StreamSubscription<_ForwardingStream.T>",
-        "measurements": null
-      },
       "379173991": {
         "id": "function/379173991",
         "kind": "function",
@@ -16398,29 +15429,6 @@
         "type": "() -> void",
         "measurements": null
       },
-      "383364052": {
-        "id": "function/383364052",
-        "kind": "function",
-        "name": "_inCallback",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 3,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
       "384323776": {
         "id": "function/384323776",
         "kind": "function",
@@ -16534,29 +15542,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "() -> int",
-        "measurements": null
-      },
-      "389892474": {
-        "id": "function/389892474",
-        "kind": "function",
-        "name": "_decrementPauseCount",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "() -> void",
         "measurements": null
       },
       "391013392": {
@@ -16794,52 +15779,6 @@
         "type": "(List<_insertionSort.E>, int, int, (_insertionSort.E, _insertionSort.E) -> int) -> void",
         "measurements": null
       },
-      "398737825": {
-        "id": "function/398737825",
-        "kind": "function",
-        "name": "_isClosed",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 2,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
-      "398913941": {
-        "id": "function/398913941",
-        "kind": "function",
-        "name": "_canFire",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 3,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
       "399195151": {
         "id": "function/399195151",
         "kind": "function",
@@ -16867,35 +15806,6 @@
         "inlinedCount": 0,
         "code": "function(object) {\n  H.printString(H.S(object));\n}\n",
         "type": "(Object) -> void",
-        "measurements": null
-      },
-      "400333142": {
-        "id": "function/400333142",
-        "kind": "function",
-        "name": "where",
-        "size": 145,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/172151835",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterable<ListMixin.E>",
-        "inferredReturnType": "[exact=WhereIterable]",
-        "parameters": [
-          {
-            "name": "test",
-            "type": "[subtype=Function]",
-            "declaredType": "(ListMixin.E) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "where$1: function(receiver, test) {\n  return new H.WhereIterable(receiver, test, [H.getRuntimeTypeArgument(receiver, \"ListMixin\", 0)]);\n}\n",
-        "type": "((ListMixin.E) -> bool) -> Iterable<ListMixin.E>",
         "measurements": null
       },
       "400990606": {
@@ -17043,35 +15953,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "() -> bool",
-        "measurements": null
-      },
-      "409966605": {
-        "id": "function/409966605",
-        "kind": "function",
-        "name": "where",
-        "size": 126,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/961595590",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Stream<Stream.T>",
-        "inferredReturnType": "[exact=_WhereStream]",
-        "parameters": [
-          {
-            "name": "test",
-            "type": "[subtype=Function]",
-            "declaredType": "(Stream.T) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "where$1: function(_, test) {\n  return new P._WhereStream(test, this, [H.getRuntimeTypeArgument(this, \"Stream\", 0)]);\n}\n",
-        "type": "((Stream.T) -> bool) -> Stream<Stream.T>",
         "measurements": null
       },
       "410557072": {
@@ -17288,7 +16169,7 @@
           }
         ],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 3,
+        "inlinedCount": 2,
         "code": null,
         "type": "(Object) -> Object",
         "measurements": null
@@ -17401,29 +16282,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "(dynamic) -> bool",
-        "measurements": null
-      },
-      "423379907": {
-        "id": "function/423379907",
-        "kind": "function",
-        "name": "resume",
-        "size": 160,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/562571521",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "resume$0: function() {\n  if (this._html$_target == null || this._pauseCount <= 0)\n    return;\n  --this._pauseCount;\n  this._tryResume$0();\n}\n",
-        "type": "() -> void",
         "measurements": null
       },
       "425007214": {
@@ -17709,108 +16567,6 @@
         "type": "() -> String",
         "measurements": null
       },
-      "432094443": {
-        "id": "function/432094443",
-        "kind": "function",
-        "name": "perform",
-        "size": 95,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/247651488",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "dispatch",
-            "type": "[subclass=_BufferingStreamSubscription]",
-            "declaredType": "_EventDispatch"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "perform$1: function(dispatch) {\n  dispatch._sendError$2(this.error, this.stackTrace);\n}\n",
-        "type": "(_EventDispatch) -> void",
-        "measurements": null
-      },
-      "433073642": {
-        "id": "function/433073642",
-        "kind": "function",
-        "name": "_addError",
-        "size": 175,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "Object"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "StackTrace"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_addError$2: function(error, stackTrace) {\n  if ((this._state & 2) !== 0)\n    return;\n  this.super$_BufferingStreamSubscription$_addError(error, stackTrace);\n}\n",
-        "type": "(Object, StackTrace) -> void",
-        "measurements": null
-      },
-      "433098641": {
-        "id": "function/433098641",
-        "kind": "function",
-        "name": "_removeEventListener",
-        "size": 170,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/661490465",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "type",
-            "type": "[exact=JSString]",
-            "declaredType": "String"
-          },
-          {
-            "name": "listener",
-            "type": "[subtype=Function]",
-            "declaredType": "EventListener"
-          },
-          {
-            "name": "options",
-            "type": "Value mask: [false] type: [exact=JSBool]",
-            "declaredType": "bool"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_removeEventListener$3: function(receiver, type, listener, options) {\n  return receiver.removeEventListener(type, H.convertDartClosureToJS(listener, 1), false);\n}\n",
-        "type": "(String, EventListener, [bool]) -> void",
-        "measurements": null
-      },
       "434935307": {
         "id": "function/434935307",
         "kind": "function",
@@ -17907,29 +16663,6 @@
         "inlinedCount": 0,
         "code": "toString$0: function(_) {\n  var t1, trace;\n  t1 = this._trace;\n  if (t1 != null)\n    return t1;\n  t1 = this._exception;\n  trace = t1 !== null && typeof t1 === \"object\" ? t1.stack : null;\n  t1 = trace == null ? \"\" : trace;\n  this._trace = t1;\n  return t1;\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "436334269": {
-        "id": "function/436334269",
-        "kind": "function",
-        "name": "_cancelOnError",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "436977056": {
@@ -18102,35 +16835,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "(Function) -> dynamic",
-        "measurements": null
-      },
-      "444410091": {
-        "id": "function/444410091",
-        "kind": "function",
-        "name": "_addPending",
-        "size": 503,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "event",
-            "type": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]",
-            "declaredType": "_DelayedEvent"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_addPending$1: function($event) {\n  var pending, t1;\n  pending = this._pending;\n  if (pending == null) {\n    pending = new P._StreamImplEvents(null, null, 0, [H.getRuntimeTypeArgument(this, \"_BufferingStreamSubscription\", 0)]);\n    this._pending = pending;\n  }\n  pending.add$1(0, $event);\n  t1 = this._state;\n  if ((t1 & 64) === 0) {\n    t1 = (t1 | 64) >>> 0;\n    this._state = t1;\n    if (t1 < 128)\n      this._pending.schedule$1(this);\n  }\n}\n",
-        "type": "(_DelayedEvent) -> void",
         "measurements": null
       },
       "444951038": {
@@ -18347,29 +17051,6 @@
         "type": "(dynamic) -> JSArray<JSArray.E>",
         "measurements": null
       },
-      "456685986": {
-        "id": "function/456685986",
-        "kind": "function",
-        "name": "_unlisten",
-        "size": 265,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/562571521",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_unlisten$0: function() {\n  var t1, t2, t3;\n  t1 = this._onData;\n  t2 = t1 != null;\n  if (t2) {\n    t3 = this._html$_target;\n    t3.toString;\n    if (t2)\n      J._removeEventListener$3$x(t3, this._eventType, t1, false);\n  }\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "458931695": {
         "id": "function/458931695",
         "kind": "function",
@@ -18529,7 +17210,7 @@
         "inferredReturnType": "[null|exact=_RootZone]",
         "parameters": [],
         "sideEffects": "Depends on static store, Changes nothing.",
-        "inlinedCount": 22,
+        "inlinedCount": 18,
         "code": null,
         "type": "() -> Zone",
         "measurements": null
@@ -18870,35 +17551,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "(dynamic) -> List",
-        "measurements": null
-      },
-      "472201782": {
-        "id": "function/472201782",
-        "kind": "function",
-        "name": "whenComplete",
-        "size": 298,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/784178238",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Future<_Future.T>",
-        "inferredReturnType": "[exact=_Future]",
-        "parameters": [
-          {
-            "name": "action",
-            "type": "[subtype=Function]",
-            "declaredType": "() -> dynamic"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "whenComplete$1: function(action) {\n  var t1, result;\n  t1 = $.Zone__current;\n  result = new P._Future(0, t1, null, this.$ti);\n  if (t1 !== C.C__RootZone)\n    t1.toString;\n  this._addListener$1(new P._FutureListener(null, result, 8, action, null));\n  return result;\n}\n",
-        "type": "(() -> dynamic) -> Future<_Future.T>",
         "measurements": null
       },
       "473156332": {
@@ -19374,35 +18026,6 @@
         "type": "(dynamic, dynamic) -> dynamic",
         "measurements": null
       },
-      "481646880": {
-        "id": "function/481646880",
-        "kind": "function",
-        "name": "call",
-        "size": 59,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "closure/103489127",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[null|subtype=bool]",
-        "parameters": [
-          {
-            "name": "e",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "call$1: function(e) {\n  return J.get$strong$x(e);\n}\n",
-        "type": "(dynamic) -> dynamic",
-        "measurements": null
-      },
       "482441661": {
         "id": "function/482441661",
         "kind": "function",
@@ -19667,29 +18290,6 @@
         "type": "(num) -> bool",
         "measurements": null
       },
-      "500288813": {
-        "id": "function/500288813",
-        "kind": "function",
-        "name": "_close",
-        "size": 260,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_async$_close$0: function() {\n  var t1 = this._state;\n  if ((t1 & 8) !== 0)\n    return;\n  t1 = (t1 | 2) >>> 0;\n  this._state = t1;\n  if (t1 < 32)\n    this._sendDone$0();\n  else\n    this._addPending$1(C.C__DelayedDone);\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "504216970": {
         "id": "function/504216970",
         "kind": "function",
@@ -19910,45 +18510,6 @@
         "inlinedCount": 2,
         "code": null,
         "type": "(String) -> String",
-        "measurements": null
-      },
-      "510130223": {
-        "id": "function/510130223",
-        "kind": "function",
-        "name": "_handleError",
-        "size": 100,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/640312620",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "StackTrace"
-          },
-          {
-            "name": "sink",
-            "type": "[subclass=_ForwardingStreamSubscription]",
-            "declaredType": "_EventSink<_ForwardingStream.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_handleError$3: function(error, stackTrace, sink) {\n  sink._addError$2(error, stackTrace);\n}\n",
-        "type": "(dynamic, StackTrace, _EventSink<_ForwardingStream.T>) -> void",
         "measurements": null
       },
       "510404521": {
@@ -20782,45 +19343,6 @@
         "type": "(() -> void) -> void",
         "measurements": null
       },
-      "546618541": {
-        "id": "function/546618541",
-        "kind": "function",
-        "name": "_addErrorWithReplacement",
-        "size": 116,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/1052666095",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "sink",
-            "type": "[subclass=_ForwardingStreamSubscription]",
-            "declaredType": "_EventSink"
-          },
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "dynamic"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "function(sink, error, stackTrace) {\n  $.Zone__current.toString;\n  sink._addError$2(error, stackTrace);\n}\n",
-        "type": "(_EventSink, dynamic, dynamic) -> void",
-        "measurements": null
-      },
       "548927176": {
         "id": "function/548927176",
         "kind": "function",
@@ -20848,40 +19370,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "(CapabilityImpl) -> dynamic",
-        "measurements": null
-      },
-      "549345412": {
-        "id": "function/549345412",
-        "kind": "function",
-        "name": "_WhereStream",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/425811673",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_WhereStream]",
-        "parameters": [
-          {
-            "name": "source",
-            "type": "[subclass=Stream]",
-            "declaredType": "Stream<_WhereStream.T>"
-          },
-          {
-            "name": "test",
-            "type": "[subtype=Function]",
-            "declaredType": "(_WhereStream.T) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(Stream<_WhereStream.T>, (_WhereStream.T) -> bool) -> dynamic",
         "measurements": null
       },
       "549577701": {
@@ -21027,7 +19515,7 @@
           }
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 3,
+        "inlinedCount": 2,
         "code": null,
         "type": "(dynamic, dynamic, dynamic) -> Object",
         "measurements": null
@@ -21241,37 +19729,6 @@
         "type": "() -> dynamic",
         "measurements": null
       },
-      "559500000": {
-        "id": "function/559500000",
-        "kind": "function",
-        "name": "schedule",
-        "size": 891,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/223916818",
-        "children": [
-          "closure/379662351"
-        ],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "dispatch",
-            "type": "[subclass=_BufferingStreamSubscription]",
-            "declaredType": "_EventDispatch<_PendingEvents.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "schedule$1: function(dispatch) {\n  var t1 = this._state;\n  if (t1 === 1)\n    return;\n  if (t1 >= 1) {\n    this._state = 1;\n    return;\n  }\n  P.scheduleMicrotask(new P._PendingEvents_schedule_closure(this, dispatch));\n  this._state = 1;\n}\n",
-        "type": "(_EventDispatch<_PendingEvents.T>) -> void",
-        "measurements": null
-      },
       "560446084": {
         "id": "function/560446084",
         "kind": "function",
@@ -21360,29 +19817,6 @@
         "inlinedCount": 0,
         "code": "get$hashCode: function(_) {\n  var hash = this._id;\n  hash = C.JSInt_methods._shrOtherPositive$1(hash, 0) ^ C.JSInt_methods._tdivFast$1(hash, 4294967296);\n  hash = (~hash >>> 0) + (hash << 15 >>> 0) & 4294967295;\n  hash = ((hash ^ hash >>> 12) >>> 0) * 5 & 4294967295;\n  hash = ((hash ^ hash >>> 4) >>> 0) * 2057 & 4294967295;\n  return (hash ^ hash >>> 16) >>> 0;\n}\n",
         "type": "() -> int",
-        "measurements": null
-      },
-      "564169382": {
-        "id": "function/564169382",
-        "kind": "function",
-        "name": "_isInputPaused",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 6,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "564404904": {
@@ -21544,31 +19978,6 @@
         "inlinedCount": 0,
         "code": "map$1: function(receiver, f) {\n  return new H.MappedListIterable(receiver, f, [H.getTypeArgumentByIndex(receiver, 0), null]);\n}\n",
         "type": "((JSArray.E) -> map.T) -> Iterable<map.T>",
-        "measurements": null
-      },
-      "567829787": {
-        "id": "function/567829787",
-        "kind": "function",
-        "name": "_sendDone",
-        "size": 865,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [
-          "closure/648617002"
-        ],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_sendDone$0: function() {\n  var t1, t2;\n  t1 = new P._BufferingStreamSubscription__sendDone_sendDone(this);\n  this._cancel$0();\n  this._state = (this._state | 16) >>> 0;\n  t2 = this._cancelFuture;\n  if (!!J.getInterceptor(t2).$isFuture && t2 !== $.$get$Future__nullFuture())\n    t2.whenComplete$1(t1);\n  else\n    t1.call$0();\n}\n",
-        "type": "() -> void",
         "measurements": null
       },
       "571605816": {
@@ -22084,58 +20493,6 @@
         "type": "() -> void",
         "measurements": null
       },
-      "591985510": {
-        "id": "function/591985510",
-        "kind": "function",
-        "name": "_handleDone",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/640312620",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "sink",
-            "type": "[subclass=_ForwardingStreamSubscription]",
-            "declaredType": "_EventSink<_ForwardingStream.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(_EventSink<_ForwardingStream.T>) -> void",
-        "measurements": null
-      },
-      "595633979": {
-        "id": "function/595633979",
-        "kind": "function",
-        "name": "_handleDone",
-        "size": 63,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_handleDone$0: function() {\n  this._async$_close$0();\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "598400252": {
         "id": "function/598400252",
         "kind": "function",
@@ -22159,35 +20516,6 @@
         "type": "() -> bool",
         "measurements": null
       },
-      "598964169": {
-        "id": "function/598964169",
-        "kind": "function",
-        "name": "pause",
-        "size": 228,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/562571521",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "resumeSignal",
-            "type": "[null]",
-            "declaredType": "Future"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "pause$1: function(_, resumeSignal) {\n  if (this._html$_target == null)\n    return;\n  ++this._pauseCount;\n  this._unlisten$0();\n}\npause$0: function($receiver) {\n  return this.pause$1($receiver, null);\n}\n",
-        "type": "([Future]) -> void",
-        "measurements": null
-      },
       "599927967": {
         "id": "function/599927967",
         "kind": "function",
@@ -22209,35 +20537,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "() -> void",
-        "measurements": null
-      },
-      "601591851": {
-        "id": "function/601591851",
-        "kind": "function",
-        "name": "_guardCallback",
-        "size": 230,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "callback",
-            "type": "[subtype=Function]",
-            "declaredType": "() -> void"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_guardCallback$1: function(callback) {\n  var t1 = this._state;\n  this._state = (t1 | 32) >>> 0;\n  callback.call$0();\n  this._state = (this._state & 4294967263) >>> 0;\n  this._checkState$1((t1 & 4) !== 0);\n}\n",
-        "type": "(() -> void) -> void",
         "measurements": null
       },
       "603180942": {
@@ -22532,35 +20831,6 @@
         "type": "() -> String",
         "measurements": null
       },
-      "613320383": {
-        "id": "function/613320383",
-        "kind": "function",
-        "name": "_add",
-        "size": 146,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "data",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_ForwardingStreamSubscription.T"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_async$_add$1: function(data) {\n  if ((this._state & 2) !== 0)\n    return;\n  this.super$_BufferingStreamSubscription$_add(data);\n}\n",
-        "type": "(_ForwardingStreamSubscription.T) -> void",
-        "measurements": null
-      },
       "613322203": {
         "id": "function/613322203",
         "kind": "function",
@@ -22590,7 +20860,7 @@
           }
         ],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 5,
+        "inlinedCount": 4,
         "code": null,
         "type": "(dynamic, StackTrace) -> handleUncaughtError.R",
         "measurements": null
@@ -22726,29 +20996,6 @@
         "inlinedCount": 5,
         "code": null,
         "type": "(dynamic) -> void",
-        "measurements": null
-      },
-      "630981326": {
-        "id": "function/630981326",
-        "kind": "function",
-        "name": "cancelSchedule",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/223916818",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 2,
-        "code": null,
-        "type": "() -> void",
         "measurements": null
       },
       "631775433": {
@@ -23491,50 +21738,6 @@
         "type": "(dynamic) -> JSArray<JSArray.E>",
         "measurements": null
       },
-      "654890108": {
-        "id": "function/654890108",
-        "kind": "function",
-        "name": "listen",
-        "size": 339,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/640312620",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "StreamSubscription<_ForwardingStream.T>",
-        "inferredReturnType": "[subclass=_ForwardingStreamSubscription]",
-        "parameters": [
-          {
-            "name": "onData",
-            "type": "[subtype=Function]",
-            "declaredType": "(_ForwardingStream.T) -> void"
-          },
-          {
-            "name": "cancelOnError",
-            "type": "Value mask: [true] type: [null|exact=JSBool]",
-            "declaredType": "bool"
-          },
-          {
-            "name": "onDone",
-            "type": "[subtype=Function]",
-            "declaredType": "() -> void"
-          },
-          {
-            "name": "onError",
-            "type": "[subtype=Function]",
-            "declaredType": "Function"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "listen$4$cancelOnError$onDone$onError: function(onData, cancelOnError, onDone, onError) {\n  return this._createSubscription$4(onData, onError, onDone, true === cancelOnError);\n}\nlisten$3$onDone$onError: function(onData, onDone, onError) {\n  return this.listen$4$cancelOnError$onDone$onError(onData, null, onDone, onError);\n}\n",
-        "type": "((_ForwardingStream.T) -> void, {bool cancelOnError, () -> void onDone, Function onError}) -> StreamSubscription<_ForwardingStream.T>",
-        "measurements": null
-      },
       "657769094": {
         "id": "function/657769094",
         "kind": "function",
@@ -23731,40 +21934,6 @@
         "inlinedCount": 0,
         "code": "_asyncComplete$1: function(value) {\n  var t1;\n  if (H.checkSubtype(value, \"$isFuture\", this.$ti, \"$asFuture\")) {\n    this._chainFuture$1(value);\n    return;\n  }\n  this._state = 1;\n  t1 = this._zone;\n  t1.toString;\n  P._rootScheduleMicrotask(null, null, t1, new P._Future__asyncComplete_closure(this, value));\n}\n",
         "type": "(dynamic) -> void",
-        "measurements": null
-      },
-      "664655165": {
-        "id": "function/664655165",
-        "kind": "function",
-        "name": "_handleData",
-        "size": 425,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/425811673",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "inputEvent",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_WhereStream.T"
-          },
-          {
-            "name": "sink",
-            "type": "[subclass=_ForwardingStreamSubscription]",
-            "declaredType": "_EventSink<_WhereStream.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_handleData$2: function(inputEvent, sink) {\n  var satisfies, e, s, exception;\n  satisfies = null;\n  try {\n    satisfies = this._test.call$1(inputEvent);\n  } catch (exception) {\n    e = H.unwrapException(exception);\n    s = H.getTraceFromException(exception);\n    P._addErrorWithReplacement(sink, e, s);\n    return;\n  }\n  if (satisfies)\n    sink._async$_add$1(inputEvent);\n}\n",
-        "type": "(_WhereStream.T, _EventSink<_WhereStream.T>) -> void",
         "measurements": null
       },
       "665416673": {
@@ -24181,29 +22350,6 @@
         "inlinedCount": 0,
         "code": "decode$2$reviver: function(source, reviver) {\n  var t1 = P._parseJson(source, this.get$decoder()._reviver);\n  return t1;\n}\ndecode$1: function(source) {\n  return this.decode$2$reviver(source, null);\n}\n",
         "type": "(String, {(dynamic, dynamic) -> dynamic reviver}) -> dynamic",
-        "measurements": null
-      },
-      "683763320": {
-        "id": "function/683763320",
-        "kind": "function",
-        "name": "_eventScheduled",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/223916818",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "684612786": {
@@ -24970,29 +23116,6 @@
         "type": "() -> int",
         "measurements": null
       },
-      "711384428": {
-        "id": "function/711384428",
-        "kind": "function",
-        "name": "_onPause",
-        "size": 30,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "_onPause$0: function() {\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "712365042": {
         "id": "function/712365042",
         "kind": "function",
@@ -25085,29 +23208,6 @@
         "type": "(dynamic, dynamic) -> Error",
         "measurements": null
       },
-      "717021501": {
-        "id": "function/717021501",
-        "kind": "function",
-        "name": "isScheduled",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/223916818",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 3,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
       "717561594": {
         "id": "function/717561594",
         "kind": "function",
@@ -25152,58 +23252,6 @@
         "inlinedCount": 0,
         "code": "get$_errorExplanation: function() {\n  return \"\";\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "718065618": {
-        "id": "function/718065618",
-        "kind": "function",
-        "name": "where",
-        "size": 126,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/523978038",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterable<JSArray.E>",
-        "inferredReturnType": "[exact=WhereIterable]",
-        "parameters": [
-          {
-            "name": "f",
-            "type": "[subtype=Function]",
-            "declaredType": "(JSArray.E) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "where$1: function(receiver, f) {\n  return new H.WhereIterable(receiver, f, [H.getTypeArgumentByIndex(receiver, 0)]);\n}\n",
-        "type": "((JSArray.E) -> bool) -> Iterable<JSArray.E>",
-        "measurements": null
-      },
-      "720351286": {
-        "id": "function/720351286",
-        "kind": "function",
-        "name": "_canceled",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/562571521",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on field store, Changes nothing.",
-        "inlinedCount": 3,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "720607723": {
@@ -25418,29 +23466,6 @@
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
-      "726074004": {
-        "id": "function/726074004",
-        "kind": "function",
-        "name": "_onResume",
-        "size": 125,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_onResume$0: function() {\n  var t1 = this._subscription;\n  if (t1 == null)\n    return;\n  t1.resume$0();\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "726979110": {
         "id": "function/726979110",
         "kind": "function",
@@ -25493,29 +23518,6 @@
         "type": "() -> void",
         "measurements": null
       },
-      "728557802": {
-        "id": "function/728557802",
-        "kind": "function",
-        "name": "iterator",
-        "size": 121,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/429280391",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterator<WhereIterable.E>",
-        "inferredReturnType": "[exact=WhereIterator]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "get$iterator: function(_) {\n  return new H.WhereIterator(J.get$iterator$ax(this._iterable), this._f, this.$ti);\n}\n",
-        "type": "() -> Iterator<WhereIterable.E>",
-        "measurements": null
-      },
       "729809409": {
         "id": "function/729809409",
         "kind": "function",
@@ -25566,40 +23568,6 @@
         "inlinedCount": 0,
         "code": "toString$0: function(_) {\n  return \"Throw of null.\";\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "730901830": {
-        "id": "function/730901830",
-        "kind": "function",
-        "name": "WhereIterable",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/429280391",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=WhereIterable]",
-        "parameters": [
-          {
-            "name": "_iterable",
-            "type": "[subtype=Iterable]",
-            "declaredType": "Iterable<WhereIterable.E>"
-          },
-          {
-            "name": "_f",
-            "type": "[subtype=Function]",
-            "declaredType": "_ElementPredicate<WhereIterable.E>"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 4,
-        "code": null,
-        "type": "(Iterable<WhereIterable.E>, _ElementPredicate<WhereIterable.E>) -> dynamic",
         "measurements": null
       },
       "731794670": {
@@ -26549,42 +24517,6 @@
         "type": "() -> String",
         "measurements": null
       },
-      "770447422": {
-        "id": "function/770447422",
-        "kind": "function",
-        "name": "_sendError",
-        "size": 1416,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [
-          "closure/915662705"
-        ],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "error",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "stackTrace",
-            "type": "[null|exact=_StackTrace]",
-            "declaredType": "StackTrace"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_sendError$2: function(error, stackTrace) {\n  var t1, t2;\n  t1 = this._state;\n  t2 = new P._BufferingStreamSubscription__sendError_sendError(this, error, stackTrace);\n  if ((t1 & 1) !== 0) {\n    this._state = (t1 | 16) >>> 0;\n    this._cancel$0();\n    t1 = this._cancelFuture;\n    if (!!J.getInterceptor(t1).$isFuture && t1 !== $.$get$Future__nullFuture())\n      t1.whenComplete$1(t2);\n    else\n      t2.call$0();\n  } else {\n    t2.call$0();\n    this._checkState$1((t1 & 4) !== 0);\n  }\n}\n",
-        "type": "(dynamic, StackTrace) -> void",
-        "measurements": null
-      },
       "772606842": {
         "id": "function/772606842",
         "kind": "function",
@@ -27023,7 +24955,7 @@
         "inferredReturnType": "[exact=JSBool]",
         "parameters": [],
         "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 2,
+        "inlinedCount": 1,
         "code": null,
         "type": "() -> bool",
         "measurements": null
@@ -27083,29 +25015,6 @@
         "inlinedCount": 0,
         "code": "toString$0: function(_) {\n  var t1 = this._message;\n  return t1.length === 0 ? \"Error\" : \"Error: \" + t1;\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "794452327": {
-        "id": "function/794452327",
-        "kind": "function",
-        "name": "call",
-        "size": 373,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "closure/379662351",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "call$0: function() {\n  var t1, oldState, $event, t2;\n  t1 = this.$this;\n  oldState = t1._state;\n  t1._state = 0;\n  if (oldState === 3)\n    return;\n  $event = t1.firstPendingEvent;\n  t2 = $event.get$next();\n  t1.firstPendingEvent = t2;\n  if (t2 == null)\n    t1.lastPendingEvent = null;\n  $event.perform$1(this.dispatch);\n}\n",
-        "type": "() -> dynamic",
         "measurements": null
       },
       "795411795": {
@@ -27806,29 +25715,6 @@
         "type": "() -> Iterable<JsLinkedHashMap.V>",
         "measurements": null
       },
-      "828752596": {
-        "id": "function/828752596",
-        "kind": "function",
-        "name": "call",
-        "size": 258,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "closure/648617002",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "call$0: function() {\n  var t1, t2;\n  t1 = this.$this;\n  t2 = t1._state;\n  if ((t2 & 16) === 0)\n    return;\n  t1._state = (t2 | 42) >>> 0;\n  t1._zone.runGuarded$1(t1._onDone);\n  t1._state = (t1._state & 4294967263) >>> 0;\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "829902700": {
         "id": "function/829902700",
         "kind": "function",
@@ -28006,29 +25892,6 @@
         "inlinedCount": 0,
         "code": "function(callback) {\n  var newEntry = new P._AsyncCallbackEntry(callback, null);\n  if ($._nextCallback == null) {\n    $._lastCallback = newEntry;\n    $._nextCallback = newEntry;\n    if (!$._isInCallbackLoop)\n      $.$get$_AsyncRun__scheduleImmediateClosure().call$1(P.async___startMicrotaskLoop$closure());\n  } else {\n    $._lastCallback.next = newEntry;\n    $._lastCallback = newEntry;\n  }\n}\n",
         "type": "(_AsyncCallback) -> void",
-        "measurements": null
-      },
-      "836260258": {
-        "id": "function/836260258",
-        "kind": "function",
-        "name": "_StreamImplEvents",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/1045817757",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_StreamImplEvents]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "() -> dynamic",
         "measurements": null
       },
       "837058414": {
@@ -28251,35 +26114,6 @@
         "inlinedCount": 0,
         "code": "function(milliseconds, callback) {\n  var t1 = new H.TimerImpl(true, false, null);\n  t1.TimerImpl$2(milliseconds, callback);\n  return t1;\n}\n",
         "type": "(int, () -> void) -> dynamic",
-        "measurements": null
-      },
-      "847863703": {
-        "id": "function/847863703",
-        "kind": "function",
-        "name": "where",
-        "size": 83,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/540398347",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterable<ListIterable.E>",
-        "inferredReturnType": "[exact=WhereIterable]",
-        "parameters": [
-          {
-            "name": "test",
-            "type": "[subtype=Function]",
-            "declaredType": "(ListIterable.E) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "where$1: function(_, test) {\n  return this.super$Iterable$where(0, test);\n}\n",
-        "type": "((ListIterable.E) -> bool) -> Iterable<ListIterable.E>",
         "measurements": null
       },
       "848267879": {
@@ -28737,69 +26571,6 @@
         "type": "() -> int",
         "measurements": null
       },
-      "865591630": {
-        "id": "function/865591630",
-        "kind": "function",
-        "name": "WhereIterator",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/693318510",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=WhereIterator]",
-        "parameters": [
-          {
-            "name": "_iterator",
-            "type": "[subtype=Iterator]",
-            "declaredType": "Iterator<WhereIterator.E>"
-          },
-          {
-            "name": "_f",
-            "type": "[subtype=Function]",
-            "declaredType": "_ElementPredicate<WhereIterator.E>"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(Iterator<WhereIterator.E>, _ElementPredicate<WhereIterator.E>) -> dynamic",
-        "measurements": null
-      },
-      "868884762": {
-        "id": "function/868884762",
-        "kind": "function",
-        "name": "_handleData",
-        "size": 83,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "data",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_ForwardingStreamSubscription.S"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_handleData$1: function(data) {\n  this._stream._handleData$2(data, this);\n}\n",
-        "type": "(_ForwardingStreamSubscription.S) -> void",
-        "measurements": null
-      },
       "869814859": {
         "id": "function/869814859",
         "kind": "function",
@@ -28856,29 +26627,6 @@
         "inlinedCount": 4,
         "code": null,
         "type": "(dynamic) -> bool",
-        "measurements": null
-      },
-      "872925756": {
-        "id": "function/872925756",
-        "kind": "function",
-        "name": "_isPaused",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 6,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "873863767": {
@@ -29066,29 +26814,6 @@
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
-      "881358956": {
-        "id": "function/881358956",
-        "kind": "function",
-        "name": "cancel",
-        "size": 182,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/562571521",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Future",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "cancel$0: function() {\n  if (this._html$_target == null)\n    return;\n  this._unlisten$0();\n  this._html$_target = null;\n  this._onData = null;\n  return;\n}\n",
-        "type": "() -> Future",
-        "measurements": null
-      },
       "881865232": {
         "id": "function/881865232",
         "kind": "function",
@@ -29110,29 +26835,6 @@
         "inlinedCount": 0,
         "code": "get$isNegative: function(receiver) {\n  return receiver === 0 ? 1 / receiver < 0 : receiver < 0;\n}\n",
         "type": "() -> bool",
-        "measurements": null
-      },
-      "881893213": {
-        "id": "function/881893213",
-        "kind": "function",
-        "name": "_onCancel",
-        "size": 45,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Future",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "_onCancel$0: function() {\n  return;\n}\n",
-        "type": "() -> Future",
         "measurements": null
       },
       "883559193": {
@@ -29787,29 +27489,6 @@
         "type": "() -> dynamic",
         "measurements": null
       },
-      "899914725": {
-        "id": "function/899914725",
-        "kind": "function",
-        "name": "_onResume",
-        "size": 31,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "_onResume$0: function() {\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "901078366": {
         "id": "function/901078366",
         "kind": "function",
@@ -29834,7 +27513,7 @@
           }
         ],
         "sideEffects": "Depends on static store, Changes field.",
-        "inlinedCount": 5,
+        "inlinedCount": 4,
         "code": null,
         "type": "(_Future.T) -> void",
         "measurements": null
@@ -29863,7 +27542,7 @@
           }
         ],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 3,
+        "inlinedCount": 2,
         "code": null,
         "type": "((registerUnaryCallback.T) -> registerUnaryCallback.R) -> ZoneUnaryCallback<registerUnaryCallback.R, registerUnaryCallback.T>",
         "measurements": null
@@ -30057,45 +27736,6 @@
         "type": "(dynamic, StackTrace) -> dynamic",
         "measurements": null
       },
-      "914458783": {
-        "id": "function/914458783",
-        "kind": "function",
-        "name": "computeSignature",
-        "size": 137,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/966364039",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[null|subclass=Object]",
-        "parameters": [
-          {
-            "name": "signature",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "context",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          },
-          {
-            "name": "contextName",
-            "type": "[null|subclass=Object]",
-            "declaredType": "dynamic"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "function(signature, context, contextName) {\n  return signature.apply(context, H.getRuntimeTypeArguments(context, contextName));\n}\n",
-        "type": "(dynamic, dynamic, dynamic) -> dynamic",
-        "measurements": null
-      },
       "914982870": {
         "id": "function/914982870",
         "kind": "function",
@@ -30157,35 +27797,6 @@
         "inlinedCount": 0,
         "code": "function(value) {\n  if (typeof value === \"number\" && Math.floor(value) === value || value == null)\n    return value;\n  throw H.wrapException(H.CastErrorImplementation$(H.Primitives_objectTypeName(value), \"int\"));\n}\n",
         "type": "(dynamic) -> dynamic",
-        "measurements": null
-      },
-      "919008289": {
-        "id": "function/919008289",
-        "kind": "function",
-        "name": "perform",
-        "size": 77,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/833898502",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "dispatch",
-            "type": "[subclass=_BufferingStreamSubscription]",
-            "declaredType": "_EventDispatch<_DelayedData.T>"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "perform$1: function(dispatch) {\n  dispatch._sendData$1(this.value);\n}\n",
-        "type": "(_EventDispatch<_DelayedData.T>) -> void",
         "measurements": null
       },
       "919469907": {
@@ -30311,35 +27922,6 @@
         "inlinedCount": 0,
         "code": "function(receiver, $function) {\n  var selfField, t1, stubName, arity, lookedUpFunction, t2, t3, $arguments;\n  selfField = H.BoundClosure_selfFieldName();\n  t1 = $.BoundClosure_receiverFieldNameCache;\n  if (t1 == null) {\n    t1 = H.BoundClosure_computeFieldNamed(\"receiver\");\n    $.BoundClosure_receiverFieldNameCache = t1;\n  }\n  stubName = $function.$stubName;\n  arity = $function.length;\n  lookedUpFunction = receiver[stubName];\n  t2 = $function == null ? lookedUpFunction == null : $function === lookedUpFunction;\n  t3 = !t2 || arity >= 28;\n  if (t3)\n    return H.Closure_cspForwardInterceptedCall(arity, !t2, stubName, $function);\n  if (arity === 1) {\n    t1 = \"return function(){return this.\" + H.S(selfField) + \".\" + H.S(stubName) + \"(this.\" + H.S(t1) + \");\";\n    t2 = $.Closure_functionCounter;\n    $.Closure_functionCounter = t2 + 1;\n    return new Function(t1 + H.S(t2) + \"}\")();\n  }\n  $arguments = \"abcdefghijklmnopqrstuvwxyz\".split(\"\").splice(0, arity - 1).join(\",\");\n  t1 = \"return function(\" + $arguments + \"){return this.\" + H.S(selfField) + \".\" + H.S(stubName) + \"(this.\" + H.S(t1) + \", \" + $arguments + \");\";\n  t2 = $.Closure_functionCounter;\n  $.Closure_functionCounter = t2 + 1;\n  return new Function(t1 + H.S(t2) + \"}\")();\n}\n",
         "type": "(dynamic, dynamic) -> dynamic",
-        "measurements": null
-      },
-      "926065480": {
-        "id": "function/926065480",
-        "kind": "function",
-        "name": "_DelayedData",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/833898502",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_DelayedData]",
-        "parameters": [
-          {
-            "name": "value",
-            "type": "[null|subclass=Object]",
-            "declaredType": "_DelayedData.T"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(_DelayedData.T) -> dynamic",
         "measurements": null
       },
       "927646884": {
@@ -30553,58 +28135,6 @@
         "type": "() -> int",
         "measurements": null
       },
-      "939771908": {
-        "id": "function/939771908",
-        "kind": "function",
-        "name": "next",
-        "size": 42,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/443841979",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "_DelayedEvent",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "get$next: function() {\n  return;\n}\n",
-        "type": "() -> _DelayedEvent",
-        "measurements": null
-      },
-      "939771909": {
-        "id": "function/939771909",
-        "kind": "function",
-        "name": "next",
-        "size": 103,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/443841979",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[empty]",
-        "parameters": [
-          {
-            "name": "_",
-            "type": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]",
-            "declaredType": "_DelayedEvent"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "set$next: function(_) {\n  throw H.wrapException(new P.StateError(\"No events after a done.\"));\n}\n",
-        "type": "(_DelayedEvent) -> void",
-        "measurements": null
-      },
       "941710296": {
         "id": "function/941710296",
         "kind": "function",
@@ -30801,29 +28331,6 @@
         "type": "() -> dynamic",
         "measurements": null
       },
-      "947459505": {
-        "id": "function/947459505",
-        "kind": "function",
-        "name": "_waitsForCancel",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 2,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
       "950708086": {
         "id": "function/950708086",
         "kind": "function",
@@ -30957,45 +28464,6 @@
         "type": "(dynamic) -> dynamic",
         "measurements": null
       },
-      "953175377": {
-        "id": "function/953175377",
-        "kind": "function",
-        "name": "removeEventListener",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/661490465",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "type",
-            "type": "[exact=JSString]",
-            "declaredType": "String"
-          },
-          {
-            "name": "listener",
-            "type": "[null|subtype=Function]",
-            "declaredType": "EventListener"
-          },
-          {
-            "name": "useCapture",
-            "type": "Value mask: [false] type: [exact=JSBool]",
-            "declaredType": "bool"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(String, EventListener, [bool]) -> void",
-        "measurements": null
-      },
       "954428895": {
         "id": "function/954428895",
         "kind": "function",
@@ -31075,55 +28543,6 @@
         "inlinedCount": 1,
         "code": null,
         "type": "(dynamic) -> bool",
-        "measurements": null
-      },
-      "959640014": {
-        "id": "function/959640014",
-        "kind": "function",
-        "name": "_ForwardingStreamSubscription",
-        "size": 465,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_ForwardingStreamSubscription]",
-        "parameters": [
-          {
-            "name": "_stream",
-            "type": "[subclass=_ForwardingStream]",
-            "declaredType": "_ForwardingStream<_ForwardingStreamSubscription.S, _ForwardingStreamSubscription.T>"
-          },
-          {
-            "name": "onData",
-            "type": "[subtype=Function]",
-            "declaredType": "(_ForwardingStreamSubscription.T) -> void"
-          },
-          {
-            "name": "onError",
-            "type": "[subtype=Function]",
-            "declaredType": "Function"
-          },
-          {
-            "name": "onDone",
-            "type": "[subtype=Function]",
-            "declaredType": "() -> void"
-          },
-          {
-            "name": "cancelOnError",
-            "type": "[exact=JSBool]",
-            "declaredType": "bool"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "function(_stream, onData, onError, onDone, cancelOnError, $S, $T) {\n  var t1, t2;\n  t1 = $.Zone__current;\n  t2 = cancelOnError ? 1 : 0;\n  t2 = new P._ForwardingStreamSubscription(_stream, null, null, null, null, t1, t2, null, null, [$S, $T]);\n  t2._BufferingStreamSubscription$4(onData, onError, onDone, cancelOnError, $T);\n  t2._ForwardingStreamSubscription$5(_stream, onData, onError, onDone, cancelOnError, $S, $T);\n  return t2;\n}\n",
-        "type": "(_ForwardingStream<_ForwardingStreamSubscription.S, _ForwardingStreamSubscription.T>, (_ForwardingStreamSubscription.T) -> void, Function, () -> void, bool) -> dynamic",
         "measurements": null
       },
       "961740035": {
@@ -31292,7 +28711,7 @@
         "inferredReturnType": "[exact=NullThrownError]",
         "parameters": [],
         "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 5,
+        "inlinedCount": 4,
         "code": null,
         "type": "() -> dynamic",
         "measurements": null
@@ -31603,40 +29022,6 @@
         "type": "(int) -> ListMixin.E",
         "measurements": null
       },
-      "984634330": {
-        "id": "function/984634330",
-        "kind": "function",
-        "name": "_FutureListener.whenComplete",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/80405414",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "dynamic",
-        "inferredReturnType": "[exact=_FutureListener]",
-        "parameters": [
-          {
-            "name": "result",
-            "type": "[exact=_Future]",
-            "declaredType": "_Future<_FutureListener.T>"
-          },
-          {
-            "name": "onComplete",
-            "type": "[subtype=Function]",
-            "declaredType": "_FutureAction"
-          }
-        ],
-        "sideEffects": "Depends on static store, Changes nothing.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(_Future<_FutureListener.T>, _FutureAction) -> dynamic",
-        "measurements": null
-      },
       "985926244": {
         "id": "function/985926244",
         "kind": "function",
@@ -31795,35 +29180,6 @@
         "inlinedCount": 0,
         "code": "toString$0: function(receiver) {\n  return String(receiver);\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "992198936": {
-        "id": "function/992198936",
-        "kind": "function",
-        "name": "onDone",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "handleDone",
-            "type": "[subtype=Function]",
-            "declaredType": "() -> void"
-          }
-        ],
-        "sideEffects": "Depends on field store, Changes field.",
-        "inlinedCount": 1,
-        "code": null,
-        "type": "(() -> void) -> void",
         "measurements": null
       },
       "992393187": {
@@ -32145,29 +29501,6 @@
         "type": "() -> bool",
         "measurements": null
       },
-      "1006600695": {
-        "id": "function/1006600695",
-        "kind": "function",
-        "name": "_cancel",
-        "size": 330,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_cancel$0: function() {\n  var t1, t2;\n  t1 = (this._state | 8) >>> 0;\n  this._state = t1;\n  if ((t1 & 64) !== 0) {\n    t2 = this._pending;\n    if (t2._state === 1)\n      t2._state = 3;\n  }\n  if ((t1 & 32) === 0)\n    this._pending = null;\n  this._cancelFuture = this._onCancel$0();\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "1008087245": {
         "id": "function/1008087245",
         "kind": "function",
@@ -32366,35 +29699,6 @@
         "inlinedCount": 3,
         "code": null,
         "type": "() -> void",
-        "measurements": null
-      },
-      "1016903320": {
-        "id": "function/1016903320",
-        "kind": "function",
-        "name": "where",
-        "size": 53,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/539359561",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Iterable<EmptyIterable.E>",
-        "inferredReturnType": "[exact=EmptyIterable]",
-        "parameters": [
-          {
-            "name": "test",
-            "type": "[subtype=Function]",
-            "declaredType": "(EmptyIterable.E) -> bool"
-          }
-        ],
-        "sideEffects": "Depends on nothing, Changes nothing.",
-        "inlinedCount": 0,
-        "code": "where$1: function(_, test) {\n  return this;\n}\n",
-        "type": "((EmptyIterable.E) -> bool) -> Iterable<EmptyIterable.E>",
         "measurements": null
       },
       "1023369003": {
@@ -32707,29 +30011,6 @@
         "type": "() -> JSArray.E",
         "measurements": null
       },
-      "1033462512": {
-        "id": "function/1033462512",
-        "kind": "function",
-        "name": "resume",
-        "size": 506,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "resume$0: function() {\n  var t1 = this._state;\n  if ((t1 & 8) !== 0)\n    return;\n  if (t1 >= 128) {\n    t1 -= 128;\n    this._state = t1;\n    if (t1 < 128)\n      if ((t1 & 64) !== 0 && this._pending.lastPendingEvent != null)\n        this._pending.schedule$1(this);\n      else {\n        t1 = (t1 & 4294967291) >>> 0;\n        this._state = t1;\n        if ((t1 & 32) === 0)\n          this._guardCallback$1(this.get$_onResume());\n      }\n  }\n}\n",
-        "type": "() -> void",
-        "measurements": null
-      },
       "1033661873": {
         "id": "function/1033661873",
         "kind": "function",
@@ -32987,29 +30268,6 @@
         "type": "(dynamic, String) -> dynamic",
         "measurements": null
       },
-      "1049951884": {
-        "id": "function/1049951884",
-        "kind": "function",
-        "name": "_hasPending",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 5,
-        "code": null,
-        "type": "() -> bool",
-        "measurements": null
-      },
       "1051093947": {
         "id": "function/1051093947",
         "kind": "function",
@@ -33031,29 +30289,6 @@
         "inlinedCount": 0,
         "code": "toString$0: function(_) {\n  return \"Closure '\" + H.Primitives_objectTypeName(this).trim() + \"'\";\n}\n",
         "type": "() -> String",
-        "measurements": null
-      },
-      "1052831043": {
-        "id": "function/1052831043",
-        "kind": "function",
-        "name": "_onCancel",
-        "size": 177,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/200888645",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "Future",
-        "inferredReturnType": "[null|exact=_Future]",
-        "parameters": [],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "_onCancel$0: function() {\n  var t1 = this._subscription;\n  if (t1 != null) {\n    this._subscription = null;\n    return t1.cancel$0();\n  }\n  return;\n}\n",
-        "type": "() -> Future",
         "measurements": null
       },
       "1055095230": {
@@ -33111,35 +30346,6 @@
         "inlinedCount": 6,
         "code": null,
         "type": "(dynamic, dynamic) -> bool",
-        "measurements": null
-      },
-      "1056628789": {
-        "id": "function/1056628789",
-        "kind": "function",
-        "name": "pause",
-        "size": 501,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/604138865",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [
-          {
-            "name": "resumeSignal",
-            "type": "[null]",
-            "declaredType": "Future"
-          }
-        ],
-        "sideEffects": "Depends on [] field store static store, Changes [] field static.",
-        "inlinedCount": 0,
-        "code": "pause$1: function(_, resumeSignal) {\n  var t1, t2, t3;\n  t1 = this._state;\n  if ((t1 & 8) !== 0)\n    return;\n  t2 = (t1 + 128 | 4) >>> 0;\n  this._state = t2;\n  if (t1 < 128 && this._pending != null) {\n    t3 = this._pending;\n    if (t3._state === 1)\n      t3._state = 3;\n  }\n  if ((t1 & 4) === 0 && (t2 & 32) === 0)\n    this._guardCallback$1(this.get$_onPause());\n}\npause$0: function($receiver) {\n  return this.pause$1($receiver, null);\n}\n",
-        "type": "([Future]) -> void",
         "measurements": null
       },
       "1058735230": {
@@ -33290,29 +30496,6 @@
         "inlinedCount": 0,
         "code": "internalComputeHashCode$1: function(key) {\n  return H.objectHashCode(key) & 0x3ffffff;\n}\n",
         "type": "(dynamic) -> int",
-        "measurements": null
-      },
-      "1063092922": {
-        "id": "function/1063092922",
-        "kind": "function",
-        "name": "isEmpty",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/1045817757",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "bool",
-        "inferredReturnType": "[exact=JSBool]",
-        "parameters": [],
-        "sideEffects": "Depends on field store, Changes nothing.",
-        "inlinedCount": 3,
-        "code": null,
-        "type": "() -> bool",
         "measurements": null
       },
       "1065856678": {
@@ -34275,18 +31458,6 @@
         "code": null,
         "type": "_AsyncCallbackEntry"
       },
-      "1022934707": {
-        "id": "field/1022934707",
-        "kind": "field",
-        "name": "_nullFuture",
-        "size": 0,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "class/438137149",
-        "children": [],
-        "inferredType": "[null|exact=_Future]",
-        "code": null,
-        "type": "_Future<Null>"
-      },
       "1047987212": {
         "id": "field/1047987212",
         "kind": "field",
@@ -34301,14 +31472,6 @@
       }
     },
     "constant": {
-      "165831299": {
-        "id": "constant/165831299",
-        "kind": "constant",
-        "name": null,
-        "size": 41,
-        "outputUnit": "outputUnit/669725655",
-        "code": "C.C__DelayedDone = new P._DelayedDone();\n"
-      },
       "227529395": {
         "id": "constant/227529395",
         "kind": "constant",
@@ -34530,15 +31693,6 @@
         "parent": "function/271674536",
         "function": "function/869814859"
       },
-      "103489127": {
-        "id": "closure/103489127",
-        "kind": "closure",
-        "name": "_dartJson_closure",
-        "size": 210,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "function/285366197",
-        "function": "function/481646880"
-      },
       "107302366": {
         "id": "closure/107302366",
         "kind": "closure",
@@ -34647,15 +31801,6 @@
         "parent": "function/664449932",
         "function": "function/667149426"
       },
-      "379662351": {
-        "id": "closure/379662351",
-        "kind": "closure",
-        "name": "_PendingEvents_schedule_closure",
-        "size": 614,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "function/559500000",
-        "function": "function/794452327"
-      },
       "385965656": {
         "id": "closure/385965656",
         "kind": "closure",
@@ -34727,15 +31872,6 @@
         "outputUnit": "outputUnit/669725655",
         "parent": "function/227475046",
         "function": "function/620539768"
-      },
-      "648617002": {
-        "id": "closure/648617002",
-        "kind": "closure",
-        "name": "_BufferingStreamSubscription__sendDone_sendDone",
-        "size": 498,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "function/567829787",
-        "function": "function/828752596"
       },
       "654052218": {
         "id": "closure/654052218",
@@ -34871,15 +32007,6 @@
         "outputUnit": "outputUnit/669725655",
         "parent": "function/165003912",
         "function": "function/469962639"
-      },
-      "915662705": {
-        "id": "closure/915662705",
-        "kind": "closure",
-        "name": "_BufferingStreamSubscription__sendError_sendError",
-        "size": 865,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "function/770447422",
-        "function": "function/355515285"
       },
       "919773564": {
         "id": "closure/919773564",
@@ -35286,16 +32413,6 @@
         "mask": "null"
       }
     ],
-    "field/1022934707": [
-      {
-        "id": "function/289180415",
-        "mask": "null"
-      },
-      {
-        "id": "function/788412943",
-        "mask": "null"
-      }
-    ],
     "function/538046": [
       {
         "id": "function/38646490",
@@ -35314,18 +32431,6 @@
       {
         "id": "function/854200700",
         "mask": "null"
-      }
-    ],
-    "function/9832624": [
-      {
-        "id": "function/904115316",
-        "mask": "inlined"
-      }
-    ],
-    "function/14519227": [
-      {
-        "id": "function/939771909",
-        "mask": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]"
       }
     ],
     "function/15204906": [
@@ -35782,10 +32887,6 @@
         "mask": "[exact=_Future]"
       },
       {
-        "id": "function/654890108",
-        "mask": "[subclass=Stream]"
-      },
-      {
         "id": "function/731961165",
         "mask": "null"
       },
@@ -36140,16 +33241,6 @@
         "mask": "inlined"
       }
     ],
-    "function/58492538": [
-      {
-        "id": "function/1063092922",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "inlined"
-      }
-    ],
     "function/62254055": [
       {
         "id": "function/616072379",
@@ -36496,12 +33587,6 @@
         "mask": "null"
       }
     ],
-    "function/101169050": [
-      {
-        "id": "function/613320383",
-        "mask": "null"
-      }
-    ],
     "function/102471615": [
       {
         "id": "function/163889622",
@@ -36525,58 +33610,6 @@
       },
       {
         "id": "function/823929753",
-        "mask": "null"
-      }
-    ],
-    "function/104977034": [
-      {
-        "id": "function/135722261",
-        "mask": "null"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "null"
-      },
-      {
-        "id": "function/784298636",
-        "mask": "null"
-      }
-    ],
-    "function/105995487": [
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/271002266",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/271002266",
-        "mask": "null"
-      },
-      {
-        "id": "function/398913941",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/398913941",
-        "mask": "null"
-      },
-      {
-        "id": "function/444410091",
-        "mask": "null"
-      },
-      {
-        "id": "function/770447422",
         "mask": "null"
       }
     ],
@@ -36616,10 +33649,6 @@
         "mask": "[subtype=Iterator]"
       },
       {
-        "id": "function/137461907",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/163889622",
         "mask": "null"
       },
@@ -36648,10 +33677,6 @@
         "mask": "[subtype=Iterator]"
       },
       {
-        "id": "function/320738480",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/379173991",
         "mask": "[subclass=Iterable]"
       },
@@ -36677,10 +33702,6 @@
       },
       {
         "id": "function/704460671",
-        "mask": "[subclass=Iterable]"
-      },
-      {
-        "id": "function/728557802",
         "mask": "[subclass=Iterable]"
       },
       {
@@ -36898,76 +33919,6 @@
         "mask": "[subclass=_LinkedHashSet]"
       }
     ],
-    "function/135722261": [
-      {
-        "id": "function/1049951884",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1049951884",
-        "mask": "null"
-      },
-      {
-        "id": "function/1063092922",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1063092922",
-        "mask": "null"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/340913736",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/559500000",
-        "mask": "null"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "null"
-      },
-      {
-        "id": "function/58492538",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/58492538",
-        "mask": "null"
-      },
-      {
-        "id": "function/711384428",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/726074004",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "null"
-      },
-      {
-        "id": "function/899914725",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      }
-    ],
     "function/136972596": [
       {
         "id": "function/1045273225",
@@ -37038,72 +33989,6 @@
         "mask": "null"
       }
     ],
-    "function/137461907": [
-      {
-        "id": "function/1027535878",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/1047605700",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/137461907",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/166779456",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/176842663",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/200279515",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/292915674",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/316836652",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/320738480",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/477472733",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/598400252",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/695629492",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/741775692",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/80270395",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/834909172",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/950708086",
-        "mask": "[subtype=Iterator]"
-      }
-    ],
     "function/140575206": [
       {
         "id": "function/1026705261",
@@ -37125,10 +34010,6 @@
       },
       {
         "id": "function/1047605700",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/137461907",
         "mask": "[subtype=Iterator]"
       },
       {
@@ -37161,10 +34042,6 @@
       },
       {
         "id": "function/316836652",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/320738480",
         "mask": "[subtype=Iterator]"
       },
       {
@@ -37205,10 +34082,6 @@
       },
       {
         "id": "function/704460671",
-        "mask": "[null|subtype=Iterable]"
-      },
-      {
-        "id": "function/728557802",
         "mask": "[null|subtype=Iterable]"
       },
       {
@@ -37873,36 +34746,6 @@
       },
       {
         "id": "function/645622339",
-        "mask": "null"
-      }
-    ],
-    "function/157770345": [
-      {
-        "id": "field/42778158",
-        "mask": "null"
-      },
-      {
-        "id": "function/265638794",
-        "mask": "null"
-      },
-      {
-        "id": "function/364010339",
-        "mask": "null"
-      },
-      {
-        "id": "function/528985088",
-        "mask": "null"
-      },
-      {
-        "id": "function/613322203",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/613322203",
-        "mask": "null"
-      },
-      {
-        "id": "function/650942169",
         "mask": "null"
       }
     ],
@@ -39194,12 +36037,6 @@
         "mask": "null"
       }
     ],
-    "function/263785933": [
-      {
-        "id": "function/567829787",
-        "mask": "null"
-      }
-    ],
     "function/263798810": [
       {
         "id": "function/120716174",
@@ -39620,44 +36457,6 @@
         "mask": "null"
       }
     ],
-    "function/283680912": [
-      {
-        "id": "function/104977034",
-        "mask": "null"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/398913941",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/398913941",
-        "mask": "null"
-      },
-      {
-        "id": "function/444410091",
-        "mask": "null"
-      },
-      {
-        "id": "function/466117817",
-        "mask": "null"
-      },
-      {
-        "id": "function/926065480",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/926065480",
-        "mask": "null"
-      }
-    ],
     "function/285366197": [
       {
         "id": "field/16313730",
@@ -39672,12 +36471,28 @@
         "mask": "null"
       },
       {
-        "id": "function/1016903320",
-        "mask": "[null|subclass=Object]"
+        "id": "function/1027535878",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/1047605700",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/166779456",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/176842663",
+        "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/18345574",
         "mask": "null"
+      },
+      {
+        "id": "function/200279515",
+        "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/290250840",
@@ -39688,19 +36503,23 @@
         "mask": "null"
       },
       {
-        "id": "function/31006852",
-        "mask": "Union of [[exact=EmptyIterable], [exact=WhereIterable], [exact=_WhereStream]]"
+        "id": "function/291238918",
+        "mask": "[null|subclass=Object]"
       },
       {
-        "id": "function/311945779",
-        "mask": "[null|subclass=Object]"
+        "id": "function/292915674",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/316836652",
+        "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/346305693",
         "mask": "null"
       },
       {
-        "id": "function/359145645",
+        "id": "function/379173991",
         "mask": "[null|subclass=Object]"
       },
       {
@@ -39712,20 +36531,20 @@
         "mask": "null"
       },
       {
-        "id": "function/400333142",
+        "id": "function/405266426",
         "mask": "[null|subclass=Object]"
       },
       {
-        "id": "function/409966605",
+        "id": "function/477472733",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/526699367",
         "mask": "[null|subclass=Object]"
       },
       {
-        "id": "function/430236296",
-        "mask": "Union of [[exact=EmptyIterable], [exact=WhereIterable], [exact=_WhereStream]]"
-      },
-      {
-        "id": "function/481646880",
-        "mask": "null"
+        "id": "function/598400252",
+        "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/675550447",
@@ -39740,7 +36559,11 @@
         "mask": "null"
       },
       {
-        "id": "function/718065618",
+        "id": "function/695629492",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/704460671",
         "mask": "[null|subclass=Object]"
       },
       {
@@ -39748,12 +36571,28 @@
         "mask": "null"
       },
       {
+        "id": "function/732254259",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/738554230",
+        "mask": "[null|subclass=Object]"
+      },
+      {
+        "id": "function/741775692",
+        "mask": "[subtype=Iterator]"
+      },
+      {
         "id": "function/77958169",
         "mask": "null"
       },
       {
-        "id": "function/823151285",
-        "mask": "Union of [[exact=EmptyIterable], [exact=WhereIterable], [exact=_WhereStream]]"
+        "id": "function/80270395",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/834909172",
+        "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/845379732",
@@ -39764,7 +36603,7 @@
         "mask": "null"
       },
       {
-        "id": "function/847863703",
+        "id": "function/852972506",
         "mask": "[null|subclass=Object]"
       },
       {
@@ -39774,6 +36613,14 @@
       {
         "id": "function/883559193",
         "mask": "null"
+      },
+      {
+        "id": "function/950708086",
+        "mask": "[subtype=Iterator]"
+      },
+      {
+        "id": "function/99251871",
+        "mask": "[null|subclass=Object]"
       }
     ],
     "function/288870017": [
@@ -39839,24 +36686,6 @@
       },
       {
         "id": "function/972906189",
-        "mask": "null"
-      }
-    ],
-    "function/289180415": [
-      {
-        "id": "field/42778158",
-        "mask": "null"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "null"
-      },
-      {
-        "id": "function/901078366",
         "mask": "null"
       }
     ],
@@ -40118,16 +36947,6 @@
         "mask": "null"
       }
     ],
-    "function/311945779": [
-      {
-        "id": "function/730901830",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/730901830",
-        "mask": "null"
-      }
-    ],
     "function/312768442": [
       {
         "id": "function/163889622",
@@ -40154,10 +36973,6 @@
         "mask": "[subtype=Iterator]"
       },
       {
-        "id": "function/137461907",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/166779456",
         "mask": "[subtype=Iterator]"
       },
@@ -40178,49 +36993,11 @@
         "mask": "[subtype=Iterator]"
       },
       {
-        "id": "function/320738480",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/477472733",
         "mask": "[subtype=Iterator]"
       },
       {
         "id": "function/598400252",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/695629492",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/741775692",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/80270395",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/834909172",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/950708086",
-        "mask": "[subtype=Iterator]"
-      }
-    ],
-    "function/320738480": [
-      {
-        "id": "function/166779456",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/292915674",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/320738480",
         "mask": "[subtype=Iterator]"
       },
       {
@@ -40638,16 +37415,6 @@
         "mask": "null"
       }
     ],
-    "function/340913736": [
-      {
-        "id": "function/1056628789",
-        "mask": "Union of [[exact=_ControllerSubscription], [exact=_EventStreamSubscription], [subclass=_ForwardingStreamSubscription]]"
-      },
-      {
-        "id": "function/598964169",
-        "mask": "Union of [[exact=_ControllerSubscription], [exact=_EventStreamSubscription], [subclass=_ForwardingStreamSubscription]]"
-      }
-    ],
     "function/341046768": [
       {
         "id": "function/574550003",
@@ -40770,24 +37537,6 @@
       {
         "id": "function/456567103",
         "mask": "inlined"
-      }
-    ],
-    "function/349794930": [
-      {
-        "id": "field/1022934707",
-        "mask": "null"
-      },
-      {
-        "id": "function/1006600695",
-        "mask": "null"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
       }
     ],
     "function/350333970": [
@@ -41124,36 +37873,6 @@
         "mask": "[null|subclass=Object]"
       }
     ],
-    "function/355515285": [
-      {
-        "id": "function/157770345",
-        "mask": "null"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/553851206",
-        "mask": "null"
-      },
-      {
-        "id": "function/784298636",
-        "mask": "null"
-      },
-      {
-        "id": "function/947459505",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/947459505",
-        "mask": "null"
-      }
-    ],
     "function/357627841": [
       {
         "id": "function/188708191",
@@ -41168,20 +37887,6 @@
       {
         "id": "function/335045122",
         "mask": "inlined"
-      }
-    ],
-    "function/359145645": [
-      {
-        "id": "function/466117817",
-        "mask": "null"
-      },
-      {
-        "id": "function/730901830",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/730901830",
-        "mask": "null"
       }
     ],
     "function/361128692": [
@@ -41244,12 +37949,6 @@
       {
         "id": "function/171287120",
         "mask": "inlined"
-      }
-    ],
-    "function/370282940": [
-      {
-        "id": "function/510130223",
-        "mask": "[subclass=_ForwardingStream]"
       }
     ],
     "function/370295194": [
@@ -41355,16 +38054,6 @@
       },
       {
         "id": "function/951132231",
-        "mask": "null"
-      }
-    ],
-    "function/378476254": [
-      {
-        "id": "function/466117817",
-        "mask": "null"
-      },
-      {
-        "id": "function/959640014",
         "mask": "null"
       }
     ],
@@ -41692,20 +38381,6 @@
         "mask": "null"
       }
     ],
-    "function/400333142": [
-      {
-        "id": "function/466117817",
-        "mask": "null"
-      },
-      {
-        "id": "function/730901830",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/730901830",
-        "mask": "null"
-      }
-    ],
     "function/401243604": [
       {
         "id": "function/553851206",
@@ -41757,20 +38432,6 @@
       },
       {
         "id": "function/979933658",
-        "mask": "null"
-      }
-    ],
-    "function/409966605": [
-      {
-        "id": "function/466117817",
-        "mask": "null"
-      },
-      {
-        "id": "function/549345412",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/549345412",
         "mask": "null"
       }
     ],
@@ -41996,28 +38657,6 @@
         "mask": "[exact=_AsyncCompleter]"
       }
     ],
-    "function/423379907": [
-      {
-        "id": "function/129973416",
-        "mask": "null"
-      },
-      {
-        "id": "function/720351286",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/720351286",
-        "mask": "null"
-      },
-      {
-        "id": "function/791144318",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/791144318",
-        "mask": "null"
-      }
-    ],
     "function/426855684": [
       {
         "id": "function/120716174",
@@ -42039,10 +38678,6 @@
       },
       {
         "id": "function/1047605700",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/137461907",
         "mask": "[subtype=Iterator]"
       },
       {
@@ -42075,10 +38710,6 @@
       },
       {
         "id": "function/704460671",
-        "mask": "[subclass=Iterable]"
-      },
-      {
-        "id": "function/728557802",
         "mask": "[subclass=Iterable]"
       },
       {
@@ -42165,32 +38796,6 @@
     "function/431897853": [
       {
         "id": "function/445547062",
-        "mask": "null"
-      }
-    ],
-    "function/432094443": [
-      {
-        "id": "function/770447422",
-        "mask": "null"
-      }
-    ],
-    "function/433073642": [
-      {
-        "id": "function/105995487",
-        "mask": "null"
-      },
-      {
-        "id": "function/398737825",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/398737825",
-        "mask": "null"
-      }
-    ],
-    "function/433098641": [
-      {
-        "id": "function/263798810",
         "mask": "null"
       }
     ],
@@ -42434,44 +39039,6 @@
         "mask": "null"
       }
     ],
-    "function/444410091": [
-      {
-        "id": "function/1049951884",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1049951884",
-        "mask": "null"
-      },
-      {
-        "id": "function/14519227",
-        "mask": "null"
-      },
-      {
-        "id": "function/466117817",
-        "mask": "null"
-      },
-      {
-        "id": "function/559500000",
-        "mask": "null"
-      },
-      {
-        "id": "function/836260258",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/836260258",
-        "mask": "null"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "null"
-      }
-    ],
     "function/445547062": [
       {
         "id": "function/1033661873",
@@ -42706,24 +39273,6 @@
       {
         "id": "function/478486472",
         "mask": "inlined"
-      }
-    ],
-    "function/456685986": [
-      {
-        "id": "function/346305693",
-        "mask": "null"
-      },
-      {
-        "id": "function/433098641",
-        "mask": "Union of [[exact=HttpRequest], [null|exact=Window], [subclass=Document], [subclass=Element]]"
-      },
-      {
-        "id": "function/953175377",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/953175377",
-        "mask": "null"
       }
     ],
     "function/458931695": [
@@ -43104,44 +39653,6 @@
         "mask": "null"
       }
     ],
-    "function/472201782": [
-      {
-        "id": "field/42778158",
-        "mask": "null"
-      },
-      {
-        "id": "function/164775669",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/164775669",
-        "mask": "null"
-      },
-      {
-        "id": "function/18599313",
-        "mask": "null"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "null"
-      },
-      {
-        "id": "function/94108092",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/94108092",
-        "mask": "null"
-      },
-      {
-        "id": "function/984634330",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/984634330",
-        "mask": "null"
-      }
-    ],
     "function/476044464": [
       {
         "id": "function/163889622",
@@ -43202,16 +39713,6 @@
       {
         "id": "function/782929744",
         "mask": "null"
-      }
-    ],
-    "function/481646880": [
-      {
-        "id": "function/346305693",
-        "mask": "null"
-      },
-      {
-        "id": "function/732254259",
-        "mask": "[null|subclass=Object]"
       }
     ],
     "function/483766990": [
@@ -43330,32 +39831,6 @@
         "mask": "null"
       }
     ],
-    "function/500288813": [
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/398913941",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/398913941",
-        "mask": "null"
-      },
-      {
-        "id": "function/444410091",
-        "mask": "null"
-      },
-      {
-        "id": "function/567829787",
-        "mask": "null"
-      }
-    ],
     "function/504216970": [
       {
         "id": "function/120716174",
@@ -43459,12 +39934,6 @@
       },
       {
         "id": "function/891015936",
-        "mask": "null"
-      }
-    ],
-    "function/510130223": [
-      {
-        "id": "function/433073642",
         "mask": "null"
       }
     ],
@@ -43668,44 +40137,6 @@
         "mask": "null"
       }
     ],
-    "function/546618541": [
-      {
-        "id": "field/42778158",
-        "mask": "null"
-      },
-      {
-        "id": "function/338379080",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/338379080",
-        "mask": "null"
-      },
-      {
-        "id": "function/415620823",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/415620823",
-        "mask": "null"
-      },
-      {
-        "id": "function/433073642",
-        "mask": "null"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "null"
-      },
-      {
-        "id": "function/968358412",
-        "mask": "null"
-      }
-    ],
     "function/549577701": [
       {
         "id": "function/992679489",
@@ -43782,32 +40213,6 @@
       {
         "id": "function/120716174",
         "mask": "inlined"
-      }
-    ],
-    "function/559500000": [
-      {
-        "id": "function/336168458",
-        "mask": "null"
-      },
-      {
-        "id": "function/683763320",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/683763320",
-        "mask": "null"
-      },
-      {
-        "id": "function/717021501",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/717021501",
-        "mask": "null"
-      },
-      {
-        "id": "function/794452327",
-        "mask": "null"
       }
     ],
     "function/560797298": [
@@ -43965,28 +40370,6 @@
       },
       {
         "id": "function/892678131",
-        "mask": "null"
-      }
-    ],
-    "function/567829787": [
-      {
-        "id": "field/1022934707",
-        "mask": "null"
-      },
-      {
-        "id": "function/1006600695",
-        "mask": "null"
-      },
-      {
-        "id": "function/346305693",
-        "mask": "null"
-      },
-      {
-        "id": "function/472201782",
-        "mask": "null"
-      },
-      {
-        "id": "function/828752596",
         "mask": "null"
       }
     ],
@@ -44324,20 +40707,6 @@
         "mask": "null"
       }
     ],
-    "function/595633979": [
-      {
-        "id": "function/500288813",
-        "mask": "null"
-      },
-      {
-        "id": "function/591985510",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/591985510",
-        "mask": "null"
-      }
-    ],
     "function/598400252": [
       {
         "id": "function/308590446",
@@ -44353,34 +40722,6 @@
       },
       {
         "id": "function/701409225",
-        "mask": "null"
-      }
-    ],
-    "function/598964169": [
-      {
-        "id": "function/456685986",
-        "mask": "null"
-      },
-      {
-        "id": "function/720351286",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/720351286",
-        "mask": "null"
-      }
-    ],
-    "function/601591851": [
-      {
-        "id": "function/135722261",
-        "mask": "null"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/564169382",
         "mask": "null"
       }
     ],
@@ -44498,20 +40839,6 @@
         "mask": "null"
       }
     ],
-    "function/613320383": [
-      {
-        "id": "function/283680912",
-        "mask": "null"
-      },
-      {
-        "id": "function/398737825",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/398737825",
-        "mask": "null"
-      }
-    ],
     "function/620005669": [
       {
         "id": "function/15461811",
@@ -44539,12 +40866,6 @@
     "function/628002764": [
       {
         "id": "function/717561594",
-        "mask": "inlined"
-      }
-    ],
-    "function/630981326": [
-      {
-        "id": "function/717021501",
         "mask": "inlined"
       }
     ],
@@ -44814,12 +41135,6 @@
         "mask": "inlined"
       }
     ],
-    "function/654890108": [
-      {
-        "id": "function/378476254",
-        "mask": "[subclass=_ForwardingStream]"
-      }
-    ],
     "function/657769094": [
       {
         "id": "function/114607430",
@@ -44981,24 +41296,6 @@
       },
       {
         "id": "function/667149426",
-        "mask": "null"
-      }
-    ],
-    "function/664655165": [
-      {
-        "id": "function/265638794",
-        "mask": "null"
-      },
-      {
-        "id": "function/528985088",
-        "mask": "null"
-      },
-      {
-        "id": "function/546618541",
-        "mask": "null"
-      },
-      {
-        "id": "function/613320383",
         "mask": "null"
       }
     ],
@@ -45564,20 +41861,6 @@
         "mask": "null"
       }
     ],
-    "function/718065618": [
-      {
-        "id": "function/730901830",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/730901830",
-        "mask": "null"
-      },
-      {
-        "id": "function/892678131",
-        "mask": "null"
-      }
-    ],
     "function/720607723": [
       {
         "id": "function/782014772",
@@ -45604,16 +41887,6 @@
         "mask": "null"
       }
     ],
-    "function/726074004": [
-      {
-        "id": "function/1033462512",
-        "mask": "Union of [[exact=_ControllerSubscription], [exact=_EventStreamSubscription], [subclass=_ForwardingStreamSubscription]]"
-      },
-      {
-        "id": "function/423379907",
-        "mask": "Union of [[exact=_ControllerSubscription], [exact=_EventStreamSubscription], [subclass=_ForwardingStreamSubscription]]"
-      }
-    ],
     "function/726979110": [
       {
         "id": "function/163889622",
@@ -45628,56 +41901,6 @@
       {
         "id": "function/782929744",
         "mask": "null"
-      }
-    ],
-    "function/728557802": [
-      {
-        "id": "function/291238918",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/346305693",
-        "mask": "null"
-      },
-      {
-        "id": "function/379173991",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/405266426",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/526699367",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/704460671",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/728557802",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/738554230",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/852972506",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/865591630",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/865591630",
-        "mask": "null"
-      },
-      {
-        "id": "function/99251871",
-        "mask": "[subtype=Iterable]"
       }
     ],
     "function/731794670": [
@@ -45777,10 +42000,6 @@
       },
       {
         "id": "function/704460671",
-        "mask": "[subtype=Iterable]"
-      },
-      {
-        "id": "function/728557802",
         "mask": "[subtype=Iterable]"
       },
       {
@@ -46146,48 +42365,6 @@
         "mask": "null"
       }
     ],
-    "function/770447422": [
-      {
-        "id": "field/1022934707",
-        "mask": "null"
-      },
-      {
-        "id": "function/1006600695",
-        "mask": "null"
-      },
-      {
-        "id": "function/135722261",
-        "mask": "null"
-      },
-      {
-        "id": "function/346305693",
-        "mask": "null"
-      },
-      {
-        "id": "function/355515285",
-        "mask": "null"
-      },
-      {
-        "id": "function/436334269",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/436334269",
-        "mask": "null"
-      },
-      {
-        "id": "function/472201782",
-        "mask": "null"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "null"
-      }
-    ],
     "function/774880085": [
       {
         "id": "function/180581426",
@@ -46456,32 +42633,6 @@
         "mask": "null"
       }
     ],
-    "function/794452327": [
-      {
-        "id": "function/263785933",
-        "mask": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]"
-      },
-      {
-        "id": "function/432094443",
-        "mask": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]"
-      },
-      {
-        "id": "function/919008289",
-        "mask": "Union of [[exact=_DelayedData], [exact=_DelayedDone], [exact=_DelayedError]]"
-      },
-      {
-        "id": "function/92202521",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/92202521",
-        "mask": "null"
-      },
-      {
-        "id": "function/939771908",
-        "mask": "Union of [[exact=_DelayedDone], [exact=_DelayedError], [null|exact=_DelayedData]]"
-      }
-    ],
     "function/795411795": [
       {
         "id": "function/1030881401",
@@ -46642,10 +42793,6 @@
         "mask": "[subtype=Iterator]"
       },
       {
-        "id": "function/137461907",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/166779456",
         "mask": "[subtype=Iterator]"
       },
@@ -46663,10 +42810,6 @@
       },
       {
         "id": "function/316836652",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/320738480",
         "mask": "[subtype=Iterator]"
       },
       {
@@ -46691,10 +42834,6 @@
       },
       {
         "id": "function/704460671",
-        "mask": "[subclass=Iterable]"
-      },
-      {
-        "id": "function/728557802",
         "mask": "[subclass=Iterable]"
       },
       {
@@ -46824,20 +42963,6 @@
         "mask": "null"
       }
     ],
-    "function/828752596": [
-      {
-        "id": "function/351622741",
-        "mask": "null"
-      },
-      {
-        "id": "function/947459505",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/947459505",
-        "mask": "null"
-      }
-    ],
     "function/829902700": [
       {
         "id": "function/712365042",
@@ -46941,12 +43066,6 @@
     "function/845542373": [
       {
         "id": "function/478451597",
-        "mask": "null"
-      }
-    ],
-    "function/847863703": [
-      {
-        "id": "function/359145645",
         "mask": "null"
       }
     ],
@@ -47086,16 +43205,6 @@
         "mask": "[subclass=JsLinkedHashMap]"
       }
     ],
-    "function/868884762": [
-      {
-        "id": "function/101169050",
-        "mask": "[subclass=_ForwardingStream]"
-      },
-      {
-        "id": "function/664655165",
-        "mask": "[subclass=_ForwardingStream]"
-      }
-    ],
     "function/873863767": [
       {
         "id": "function/204916897",
@@ -47175,20 +43284,6 @@
     "function/879090965": [
       {
         "id": "function/314686478",
-        "mask": "null"
-      }
-    ],
-    "function/881358956": [
-      {
-        "id": "function/456685986",
-        "mask": "null"
-      },
-      {
-        "id": "function/720351286",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/720351286",
         "mask": "null"
       }
     ],
@@ -47450,20 +43545,6 @@
         "mask": "null"
       }
     ],
-    "function/914458783": [
-      {
-        "id": "function/340651472",
-        "mask": "null"
-      },
-      {
-        "id": "function/551570860",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/551570860",
-        "mask": "null"
-      }
-    ],
     "function/916958002": [
       {
         "id": "function/163889622",
@@ -47475,12 +43556,6 @@
       },
       {
         "id": "function/873863767",
-        "mask": "null"
-      }
-    ],
-    "function/919008289": [
-      {
-        "id": "function/104977034",
         "mask": "null"
       }
     ],
@@ -47524,10 +43599,6 @@
         "mask": "[subtype=Iterator]"
       },
       {
-        "id": "function/137461907",
-        "mask": "[subtype=Iterator]"
-      },
-      {
         "id": "function/166779456",
         "mask": "[subtype=Iterator]"
       },
@@ -47545,10 +43616,6 @@
       },
       {
         "id": "function/316836652",
-        "mask": "[subtype=Iterator]"
-      },
-      {
-        "id": "function/320738480",
         "mask": "[subtype=Iterator]"
       },
       {
@@ -47577,10 +43644,6 @@
       },
       {
         "id": "function/704460671",
-        "mask": "[subclass=Iterable]"
-      },
-      {
-        "id": "function/728557802",
         "mask": "[subclass=Iterable]"
       },
       {
@@ -47656,20 +43719,6 @@
       {
         "id": "function/268773900",
         "mask": "inlined"
-      }
-    ],
-    "function/939771909": [
-      {
-        "id": "function/163889622",
-        "mask": "null"
-      },
-      {
-        "id": "function/271556856",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/271556856",
-        "mask": "null"
       }
     ],
     "function/941855663": [
@@ -48122,20 +44171,6 @@
         "mask": "null"
       }
     ],
-    "function/959640014": [
-      {
-        "id": "field/42778158",
-        "mask": "null"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/460512542",
-        "mask": "null"
-      }
-    ],
     "function/968241519": [
       {
         "id": "field/42778158",
@@ -48322,12 +44357,6 @@
         "mask": "inlined"
       }
     ],
-    "function/992198936": [
-      {
-        "id": "function/164775669",
-        "mask": "inlined"
-      }
-    ],
     "function/992763261": [
       {
         "id": "function/7819733",
@@ -48376,44 +44405,6 @@
       {
         "id": "function/250127561",
         "mask": "null"
-      }
-    ],
-    "function/1006600695": [
-      {
-        "id": "function/1049951884",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1049951884",
-        "mask": "null"
-      },
-      {
-        "id": "function/1052831043",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/383364052",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/383364052",
-        "mask": "null"
-      },
-      {
-        "id": "function/630981326",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/630981326",
-        "mask": "null"
-      },
-      {
-        "id": "function/717021501",
-        "mask": "null"
-      },
-      {
-        "id": "function/881893213",
-        "mask": "[subclass=_BufferingStreamSubscription]"
       }
     ],
     "function/1008087245": [
@@ -48582,72 +44573,6 @@
         "mask": "null"
       }
     ],
-    "function/1033462512": [
-      {
-        "id": "function/1049951884",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1049951884",
-        "mask": "null"
-      },
-      {
-        "id": "function/1063092922",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/1063092922",
-        "mask": "null"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/383364052",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/383364052",
-        "mask": "null"
-      },
-      {
-        "id": "function/389892474",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/389892474",
-        "mask": "null"
-      },
-      {
-        "id": "function/559500000",
-        "mask": "null"
-      },
-      {
-        "id": "function/601591851",
-        "mask": "null"
-      },
-      {
-        "id": "function/726074004",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "null"
-      },
-      {
-        "id": "function/899914725",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      }
-    ],
     "function/1033661873": [
       {
         "id": "function/643002706",
@@ -48766,74 +44691,6 @@
         "mask": "null"
       }
     ],
-    "function/1052831043": [
-      {
-        "id": "function/349794930",
-        "mask": "Union of [[exact=_ControllerSubscription], [exact=_EventStreamSubscription], [subclass=_ForwardingStreamSubscription]]"
-      },
-      {
-        "id": "function/881358956",
-        "mask": "Union of [[exact=_ControllerSubscription], [exact=_EventStreamSubscription], [subclass=_ForwardingStreamSubscription]]"
-      }
-    ],
-    "function/1056628789": [
-      {
-        "id": "function/247154050",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/247154050",
-        "mask": "null"
-      },
-      {
-        "id": "function/340913736",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/383364052",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/383364052",
-        "mask": "null"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/564169382",
-        "mask": "null"
-      },
-      {
-        "id": "function/601591851",
-        "mask": "null"
-      },
-      {
-        "id": "function/630981326",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/630981326",
-        "mask": "null"
-      },
-      {
-        "id": "function/711384428",
-        "mask": "[subclass=_BufferingStreamSubscription]"
-      },
-      {
-        "id": "function/717021501",
-        "mask": "null"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/872925756",
-        "mask": "null"
-      }
-    ],
     "function/1058735230": [
       {
         "id": "field/42778158",
@@ -48929,7 +44786,7 @@
       "id": "outputUnit/669725655",
       "kind": "outputUnit",
       "name": "main",
-      "size": 310389,
+      "size": 289127,
       "imports": []
     }
   ],
@@ -48938,11 +44795,11 @@
   "dump_minor_version": "0",
   "program": {
     "entrypoint": "function/943223716",
-    "size": 310389,
+    "size": 289127,
     "dart2jsVersion": null,
-    "compilationMoment": "2017-09-14 17:04:23.227614",
-    "compilationDuration": 6461800,
-    "toJsonDuration": 22000,
+    "compilationMoment": "2017-09-14 17:05:13.227676",
+    "compilationDuration": 6109193,
+    "toJsonDuration": 18000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "minified": false
